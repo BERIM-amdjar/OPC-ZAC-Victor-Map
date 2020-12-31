@@ -34,7 +34,18 @@
         <script src="js/labels.js"></script>
         <script src="js/Control.OSMGeocoder.js"></script>
         <script src="js/leaflet-measure.js"></script>
-        <script src="data/TravauxZacVHugo_0.js"></script>
+        <script src="data/Phasemai2027fv2028_0.js"></script>
+        <script src="data/Phasenov2026avr2027_1.js"></script>
+        <script src="data/Phasedc2025oct2026_2.js"></script>
+        <script src="data/Phasejanv2025nov2025_3.js"></script>
+        <script src="data/Phasemars2024dc2024_4.js"></script>
+        <script src="data/Phasejuill2023Fv2024_5.js"></script>
+        <script src="data/Phasejan2023juin2023_6.js"></script>
+        <script src="data/Phasejuill2022dc2022_7.js"></script>
+        <script src="data/Phasejanv2022juin2022_8.js"></script>
+        <script src="data/Phasemai2021Dc2021_9.js"></script>
+        <script src="data/Phasejanv2020mai2021_10.js"></script>
+        <script src="data/TravauxZacVHugo_11.js"></script>
         <script>
         var highlightLayer;
         function highlightFeature(e) {
@@ -62,7 +73,7 @@
         basemap0.addTo(map);
         function setBounds() {
         }
-        function pop_TravauxZacVHugo_0(feature, layer) {
+        function pop_Phasemai2027fv2028_0(feature, layer) {
             layer.on({
                 mouseout: function(e) {
                     if (typeof layer.closePopup == 'function') {
@@ -96,39 +107,11 @@
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
-        function style_TravauxZacVHugo_0_0(feature) {
+        function style_Phasemai2027fv2028_0_0(feature) {
             switch(String(feature.properties['Layer'])) {
-                case 'COLLEGE':
-                    return {
-                pane: 'pane_TravauxZacVHugo_0',
-                opacity: 1,
-                color: 'rgba(0,0,0,0.38)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(192,22,164,0.38)',
-            }
-                    break;
-                case 'Demol':
-                    return {
-                pane: 'pane_TravauxZacVHugo_0',
-                opacity: 1,
-                color: 'rgba(0,0,0,0.38)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(233,195,40,0.38)',
-            }
-                    break;
                 case 'EP':
                     return {
-                pane: 'pane_TravauxZacVHugo_0',
+                pane: 'pane_Phasemai2027fv2028_0',
                 opacity: 1,
                 color: 'rgba(0,0,0,0.38)',
                 dashArray: '',
@@ -142,7 +125,7 @@
                     break;
                 case 'EP PROV':
                     return {
-                pane: 'pane_TravauxZacVHugo_0',
+                pane: 'pane_Phasemai2027fv2028_0',
                 opacity: 1,
                 color: 'rgba(0,0,0,0.38)',
                 dashArray: '',
@@ -156,7 +139,7 @@
                     break;
                 case 'Gare SGP':
                     return {
-                pane: 'pane_TravauxZacVHugo_0',
+                pane: 'pane_Phasemai2027fv2028_0',
                 opacity: 1,
                 color: 'rgba(0,0,0,0.38)',
                 dashArray: '',
@@ -168,23 +151,9 @@
                 fillColor: 'rgba(0,169,244,0.38)',
             }
                     break;
-                case 'LOT Lot privé ZAC':
-                    return {
-                pane: 'pane_TravauxZacVHugo_0',
-                opacity: 1,
-                color: 'rgba(0,0,0,0.38)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(240,132,2,0.38)',
-            }
-                    break;
                 case 'Lot privé ZAC':
                     return {
-                pane: 'pane_TravauxZacVHugo_0',
+                pane: 'pane_Phasemai2027fv2028_0',
                 opacity: 1,
                 color: 'rgba(0,0,0,0.38)',
                 dashArray: '',
@@ -198,7 +167,7 @@
                     break;
                 case 'RATP':
                     return {
-                pane: 'pane_TravauxZacVHugo_0',
+                pane: 'pane_Phasemai2027fv2028_0',
                 opacity: 1,
                 color: 'rgba(0,0,0,0.38)',
                 dashArray: '',
@@ -212,17 +181,1316 @@
                     break;
             }
         }
-        map.createPane('pane_TravauxZacVHugo_0');
-        map.getPane('pane_TravauxZacVHugo_0').style.zIndex = 400;
-        map.getPane('pane_TravauxZacVHugo_0').style['mix-blend-mode'] = 'normal';
-        var layer_TravauxZacVHugo_0 = new L.geoJson(json_TravauxZacVHugo_0, {
+        map.createPane('pane_Phasemai2027fv2028_0');
+        map.getPane('pane_Phasemai2027fv2028_0').style.zIndex = 400;
+        map.getPane('pane_Phasemai2027fv2028_0').style['mix-blend-mode'] = 'normal';
+        var layer_Phasemai2027fv2028_0 = new L.geoJson(json_Phasemai2027fv2028_0, {
             attribution: '<a href=""></a>',
-            pane: 'pane_TravauxZacVHugo_0',
-            onEachFeature: pop_TravauxZacVHugo_0,
-            style: style_TravauxZacVHugo_0_0,
+            pane: 'pane_Phasemai2027fv2028_0',
+            onEachFeature: pop_Phasemai2027fv2028_0,
+            style: style_Phasemai2027fv2028_0_0,
         });
-        bounds_group.addLayer(layer_TravauxZacVHugo_0);
-        map.addLayer(layer_TravauxZacVHugo_0);
+        bounds_group.addLayer(layer_Phasemai2027fv2028_0);
+        function pop_Phasenov2026avr2027_1(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Layer'] !== null ? Autolinker.link(String(feature.properties['Layer'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Phase'] !== null ? Autolinker.link(String(feature.properties['Phase'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Début tvx'] !== null ? Autolinker.link(String(feature.properties['Début tvx'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Fin trvx'] !== null ? Autolinker.link(String(feature.properties['Fin trvx'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Nom</th>\
+                        <td>' + (feature.properties['Nom'] !== null ? Autolinker.link(String(feature.properties['Nom'])) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_Phasenov2026avr2027_1_0(feature) {
+            switch(String(feature.properties['Layer'])) {
+                case 'EP':
+                    return {
+                pane: 'pane_Phasenov2026avr2027_1',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(77,87,96,0.38)',
+            }
+                    break;
+                case 'EP PROV':
+                    return {
+                pane: 'pane_Phasenov2026avr2027_1',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(77,87,96,0.38)',
+            }
+                    break;
+                case 'Gare SGP':
+                    return {
+                pane: 'pane_Phasenov2026avr2027_1',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(74,193,240,0.38)',
+            }
+                    break;
+                case 'Lot privé ZAC':
+                    return {
+                pane: 'pane_Phasenov2026avr2027_1',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(240,132,2,0.38)',
+            }
+                    break;
+                case 'RATP':
+                    return {
+                pane: 'pane_Phasenov2026avr2027_1',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,200,20,0.38)',
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_Phasenov2026avr2027_1');
+        map.getPane('pane_Phasenov2026avr2027_1').style.zIndex = 401;
+        map.getPane('pane_Phasenov2026avr2027_1').style['mix-blend-mode'] = 'normal';
+        var layer_Phasenov2026avr2027_1 = new L.geoJson(json_Phasenov2026avr2027_1, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_Phasenov2026avr2027_1',
+            onEachFeature: pop_Phasenov2026avr2027_1,
+            style: style_Phasenov2026avr2027_1_0,
+        });
+        bounds_group.addLayer(layer_Phasenov2026avr2027_1);
+        function pop_Phasedc2025oct2026_2(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Layer'] !== null ? Autolinker.link(String(feature.properties['Layer'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Phase'] !== null ? Autolinker.link(String(feature.properties['Phase'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Début tvx'] !== null ? Autolinker.link(String(feature.properties['Début tvx'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Fin trvx'] !== null ? Autolinker.link(String(feature.properties['Fin trvx'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Nom</th>\
+                        <td>' + (feature.properties['Nom'] !== null ? Autolinker.link(String(feature.properties['Nom'])) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_Phasedc2025oct2026_2_0(feature) {
+            switch(String(feature.properties['Layer'])) {
+                case 'EP':
+                    return {
+                pane: 'pane_Phasedc2025oct2026_2',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(77,87,96,0.38)',
+            }
+                    break;
+                case 'EP PROV':
+                    return {
+                pane: 'pane_Phasedc2025oct2026_2',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(77,87,96,0.38)',
+            }
+                    break;
+                case 'Gare SGP':
+                    return {
+                pane: 'pane_Phasedc2025oct2026_2',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,169,244,0.38)',
+            }
+                    break;
+                case 'Lot privé ZAC':
+                    return {
+                pane: 'pane_Phasedc2025oct2026_2',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(240,132,2,0.38)',
+            }
+                    break;
+                case 'RATP':
+                    return {
+                pane: 'pane_Phasedc2025oct2026_2',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,200,20,0.38)',
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_Phasedc2025oct2026_2');
+        map.getPane('pane_Phasedc2025oct2026_2').style.zIndex = 402;
+        map.getPane('pane_Phasedc2025oct2026_2').style['mix-blend-mode'] = 'normal';
+        var layer_Phasedc2025oct2026_2 = new L.geoJson(json_Phasedc2025oct2026_2, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_Phasedc2025oct2026_2',
+            onEachFeature: pop_Phasedc2025oct2026_2,
+            style: style_Phasedc2025oct2026_2_0,
+        });
+        bounds_group.addLayer(layer_Phasedc2025oct2026_2);
+        function pop_Phasejanv2025nov2025_3(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Layer'] !== null ? Autolinker.link(String(feature.properties['Layer'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Phase'] !== null ? Autolinker.link(String(feature.properties['Phase'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Début tvx'] !== null ? Autolinker.link(String(feature.properties['Début tvx'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Fin trvx'] !== null ? Autolinker.link(String(feature.properties['Fin trvx'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Nom</th>\
+                        <td>' + (feature.properties['Nom'] !== null ? Autolinker.link(String(feature.properties['Nom'])) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_Phasejanv2025nov2025_3_0(feature) {
+            switch(String(feature.properties['Layer'])) {
+                case 'EP':
+                    return {
+                pane: 'pane_Phasejanv2025nov2025_3',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(77,87,96,0.38)',
+            }
+                    break;
+                case 'EP PROV':
+                    return {
+                pane: 'pane_Phasejanv2025nov2025_3',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(77,87,96,0.38)',
+            }
+                    break;
+                case 'Gare SGP':
+                    return {
+                pane: 'pane_Phasejanv2025nov2025_3',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,169,244,0.38)',
+            }
+                    break;
+                case 'Lot privé ZAC':
+                    return {
+                pane: 'pane_Phasejanv2025nov2025_3',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(240,132,2,0.38)',
+            }
+                    break;
+                case 'RATP':
+                    return {
+                pane: 'pane_Phasejanv2025nov2025_3',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,200,20,0.38)',
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_Phasejanv2025nov2025_3');
+        map.getPane('pane_Phasejanv2025nov2025_3').style.zIndex = 403;
+        map.getPane('pane_Phasejanv2025nov2025_3').style['mix-blend-mode'] = 'normal';
+        var layer_Phasejanv2025nov2025_3 = new L.geoJson(json_Phasejanv2025nov2025_3, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_Phasejanv2025nov2025_3',
+            onEachFeature: pop_Phasejanv2025nov2025_3,
+            style: style_Phasejanv2025nov2025_3_0,
+        });
+        bounds_group.addLayer(layer_Phasejanv2025nov2025_3);
+        function pop_Phasemars2024dc2024_4(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Layer'] !== null ? Autolinker.link(String(feature.properties['Layer'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Phase'] !== null ? Autolinker.link(String(feature.properties['Phase'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Début tvx'] !== null ? Autolinker.link(String(feature.properties['Début tvx'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Fin trvx'] !== null ? Autolinker.link(String(feature.properties['Fin trvx'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Nom</th>\
+                        <td>' + (feature.properties['Nom'] !== null ? Autolinker.link(String(feature.properties['Nom'])) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_Phasemars2024dc2024_4_0(feature) {
+            switch(String(feature.properties['Layer'])) {
+                case 'EP':
+                    return {
+                pane: 'pane_Phasemars2024dc2024_4',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(77,87,96,0.38)',
+            }
+                    break;
+                case 'EP PROV':
+                    return {
+                pane: 'pane_Phasemars2024dc2024_4',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(77,87,96,0.38)',
+            }
+                    break;
+                case 'Gare SGP':
+                    return {
+                pane: 'pane_Phasemars2024dc2024_4',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,169,244,0.38)',
+            }
+                    break;
+                case 'Lot privé ZAC':
+                    return {
+                pane: 'pane_Phasemars2024dc2024_4',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(240,132,2,0.38)',
+            }
+                    break;
+                case 'RATP':
+                    return {
+                pane: 'pane_Phasemars2024dc2024_4',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,200,20,0.38)',
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_Phasemars2024dc2024_4');
+        map.getPane('pane_Phasemars2024dc2024_4').style.zIndex = 404;
+        map.getPane('pane_Phasemars2024dc2024_4').style['mix-blend-mode'] = 'normal';
+        var layer_Phasemars2024dc2024_4 = new L.geoJson(json_Phasemars2024dc2024_4, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_Phasemars2024dc2024_4',
+            onEachFeature: pop_Phasemars2024dc2024_4,
+            style: style_Phasemars2024dc2024_4_0,
+        });
+        bounds_group.addLayer(layer_Phasemars2024dc2024_4);
+        function pop_Phasejuill2023Fv2024_5(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Layer'] !== null ? Autolinker.link(String(feature.properties['Layer'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Phase</th>\
+                        <td>' + (feature.properties['Phase'] !== null ? Autolinker.link(String(feature.properties['Phase'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Début tvx'] !== null ? Autolinker.link(String(feature.properties['Début tvx'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Fin trvx'] !== null ? Autolinker.link(String(feature.properties['Fin trvx'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Nom</th>\
+                        <td>' + (feature.properties['Nom'] !== null ? Autolinker.link(String(feature.properties['Nom'])) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_Phasejuill2023Fv2024_5_0(feature) {
+            switch(String(feature.properties['Layer'])) {
+                case 'EP':
+                    return {
+                pane: 'pane_Phasejuill2023Fv2024_5',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(77,87,96,0.38)',
+            }
+                    break;
+                case 'EP PROV':
+                    return {
+                pane: 'pane_Phasejuill2023Fv2024_5',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(77,87,96,0.38)',
+            }
+                    break;
+                case 'Gare SGP':
+                    return {
+                pane: 'pane_Phasejuill2023Fv2024_5',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,169,244,0.38)',
+            }
+                    break;
+                case 'Lot privé ZAC':
+                    return {
+                pane: 'pane_Phasejuill2023Fv2024_5',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(240,132,2,0.38)',
+            }
+                    break;
+                case 'RATP':
+                    return {
+                pane: 'pane_Phasejuill2023Fv2024_5',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,200,20,0.38)',
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_Phasejuill2023Fv2024_5');
+        map.getPane('pane_Phasejuill2023Fv2024_5').style.zIndex = 405;
+        map.getPane('pane_Phasejuill2023Fv2024_5').style['mix-blend-mode'] = 'normal';
+        var layer_Phasejuill2023Fv2024_5 = new L.geoJson(json_Phasejuill2023Fv2024_5, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_Phasejuill2023Fv2024_5',
+            onEachFeature: pop_Phasejuill2023Fv2024_5,
+            style: style_Phasejuill2023Fv2024_5_0,
+        });
+        bounds_group.addLayer(layer_Phasejuill2023Fv2024_5);
+        function pop_Phasejan2023juin2023_6(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Layer'] !== null ? Autolinker.link(String(feature.properties['Layer'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Phase'] !== null ? Autolinker.link(String(feature.properties['Phase'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Début tvx'] !== null ? Autolinker.link(String(feature.properties['Début tvx'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Fin trvx</th>\
+                        <td>' + (feature.properties['Fin trvx'] !== null ? Autolinker.link(String(feature.properties['Fin trvx'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Nom'] !== null ? Autolinker.link(String(feature.properties['Nom'])) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_Phasejan2023juin2023_6_0(feature) {
+            switch(String(feature.properties['Layer'])) {
+                case 'EP':
+                    return {
+                pane: 'pane_Phasejan2023juin2023_6',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(77,87,96,0.38)',
+            }
+                    break;
+                case 'EP PROV':
+                    return {
+                pane: 'pane_Phasejan2023juin2023_6',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(77,87,96,0.38)',
+            }
+                    break;
+                case 'Gare SGP':
+                    return {
+                pane: 'pane_Phasejan2023juin2023_6',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,169,244,0.38)',
+            }
+                    break;
+                case 'Lot privé ZAC':
+                    return {
+                pane: 'pane_Phasejan2023juin2023_6',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(240,132,2,0.38)',
+            }
+                    break;
+                case 'RATP':
+                    return {
+                pane: 'pane_Phasejan2023juin2023_6',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,200,20,0.38)',
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_Phasejan2023juin2023_6');
+        map.getPane('pane_Phasejan2023juin2023_6').style.zIndex = 406;
+        map.getPane('pane_Phasejan2023juin2023_6').style['mix-blend-mode'] = 'normal';
+        var layer_Phasejan2023juin2023_6 = new L.geoJson(json_Phasejan2023juin2023_6, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_Phasejan2023juin2023_6',
+            onEachFeature: pop_Phasejan2023juin2023_6,
+            style: style_Phasejan2023juin2023_6_0,
+        });
+        bounds_group.addLayer(layer_Phasejan2023juin2023_6);
+        function pop_Phasejuill2022dc2022_7(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Layer'] !== null ? Autolinker.link(String(feature.properties['Layer'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Phase'] !== null ? Autolinker.link(String(feature.properties['Phase'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Début tvx'] !== null ? Autolinker.link(String(feature.properties['Début tvx'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Fin trvx'] !== null ? Autolinker.link(String(feature.properties['Fin trvx'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Nom</th>\
+                        <td>' + (feature.properties['Nom'] !== null ? Autolinker.link(String(feature.properties['Nom'])) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_Phasejuill2022dc2022_7_0(feature) {
+            switch(String(feature.properties['Layer'])) {
+                case 'EP':
+                    return {
+                pane: 'pane_Phasejuill2022dc2022_7',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(77,87,96,0.38)',
+            }
+                    break;
+                case 'EP PROV':
+                    return {
+                pane: 'pane_Phasejuill2022dc2022_7',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(77,87,96,0.38)',
+            }
+                    break;
+                case 'Gare SGP':
+                    return {
+                pane: 'pane_Phasejuill2022dc2022_7',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,169,244,0.38)',
+            }
+                    break;
+                case 'Lot privé ZAC':
+                    return {
+                pane: 'pane_Phasejuill2022dc2022_7',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(240,132,2,0.38)',
+            }
+                    break;
+                case 'RATP':
+                    return {
+                pane: 'pane_Phasejuill2022dc2022_7',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,200,20,0.38)',
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_Phasejuill2022dc2022_7');
+        map.getPane('pane_Phasejuill2022dc2022_7').style.zIndex = 407;
+        map.getPane('pane_Phasejuill2022dc2022_7').style['mix-blend-mode'] = 'normal';
+        var layer_Phasejuill2022dc2022_7 = new L.geoJson(json_Phasejuill2022dc2022_7, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_Phasejuill2022dc2022_7',
+            onEachFeature: pop_Phasejuill2022dc2022_7,
+            style: style_Phasejuill2022dc2022_7_0,
+        });
+        bounds_group.addLayer(layer_Phasejuill2022dc2022_7);
+        function pop_Phasejanv2022juin2022_8(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Layer'] !== null ? Autolinker.link(String(feature.properties['Layer'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Phase'] !== null ? Autolinker.link(String(feature.properties['Phase'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Début tvx'] !== null ? Autolinker.link(String(feature.properties['Début tvx'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Fin trvx'] !== null ? Autolinker.link(String(feature.properties['Fin trvx'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Nom</th>\
+                        <td>' + (feature.properties['Nom'] !== null ? Autolinker.link(String(feature.properties['Nom'])) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_Phasejanv2022juin2022_8_0(feature) {
+            switch(String(feature.properties['Layer'])) {
+                case 'EP':
+                    return {
+                pane: 'pane_Phasejanv2022juin2022_8',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(77,87,96,0.38)',
+            }
+                    break;
+                case 'EP PROV':
+                    return {
+                pane: 'pane_Phasejanv2022juin2022_8',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(77,87,96,0.38)',
+            }
+                    break;
+                case 'Gare SGP':
+                    return {
+                pane: 'pane_Phasejanv2022juin2022_8',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,169,244,0.38)',
+            }
+                    break;
+                case 'Lot privé ZAC':
+                    return {
+                pane: 'pane_Phasejanv2022juin2022_8',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(240,132,2,0.38)',
+            }
+                    break;
+                case 'RATP':
+                    return {
+                pane: 'pane_Phasejanv2022juin2022_8',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,200,20,0.38)',
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_Phasejanv2022juin2022_8');
+        map.getPane('pane_Phasejanv2022juin2022_8').style.zIndex = 408;
+        map.getPane('pane_Phasejanv2022juin2022_8').style['mix-blend-mode'] = 'normal';
+        var layer_Phasejanv2022juin2022_8 = new L.geoJson(json_Phasejanv2022juin2022_8, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_Phasejanv2022juin2022_8',
+            onEachFeature: pop_Phasejanv2022juin2022_8,
+            style: style_Phasejanv2022juin2022_8_0,
+        });
+        bounds_group.addLayer(layer_Phasejanv2022juin2022_8);
+        function pop_Phasemai2021Dc2021_9(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Layer'] !== null ? Autolinker.link(String(feature.properties['Layer'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Phase'] !== null ? Autolinker.link(String(feature.properties['Phase'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Début tvx'] !== null ? Autolinker.link(String(feature.properties['Début tvx'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Fin trvx</th>\
+                        <td>' + (feature.properties['Fin trvx'] !== null ? Autolinker.link(String(feature.properties['Fin trvx'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Nom'] !== null ? Autolinker.link(String(feature.properties['Nom'])) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_Phasemai2021Dc2021_9_0(feature) {
+            switch(String(feature.properties['Layer'])) {
+                case 'EP':
+                    return {
+                pane: 'pane_Phasemai2021Dc2021_9',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(77,87,96,0.38)',
+            }
+                    break;
+                case 'EP PROV':
+                    return {
+                pane: 'pane_Phasemai2021Dc2021_9',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(77,87,96,0.38)',
+            }
+                    break;
+                case 'Gare SGP':
+                    return {
+                pane: 'pane_Phasemai2021Dc2021_9',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,169,244,0.38)',
+            }
+                    break;
+                case 'LOT G2':
+                    return {
+                pane: 'pane_Phasemai2021Dc2021_9',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(240,132,2,0.38)',
+            }
+                    break;
+                case 'RATP':
+                    return {
+                pane: 'pane_Phasemai2021Dc2021_9',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,200,20,0.38)',
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_Phasemai2021Dc2021_9');
+        map.getPane('pane_Phasemai2021Dc2021_9').style.zIndex = 409;
+        map.getPane('pane_Phasemai2021Dc2021_9').style['mix-blend-mode'] = 'normal';
+        var layer_Phasemai2021Dc2021_9 = new L.geoJson(json_Phasemai2021Dc2021_9, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_Phasemai2021Dc2021_9',
+            onEachFeature: pop_Phasemai2021Dc2021_9,
+            style: style_Phasemai2021Dc2021_9_0,
+        });
+        bounds_group.addLayer(layer_Phasemai2021Dc2021_9);
+        function pop_Phasejanv2020mai2021_10(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Layer'] !== null ? Autolinker.link(String(feature.properties['Layer'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Phase'] !== null ? Autolinker.link(String(feature.properties['Phase'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Début tvx'] !== null ? Autolinker.link(String(feature.properties['Début tvx'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Fin trvx'] !== null ? Autolinker.link(String(feature.properties['Fin trvx'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Nom</th>\
+                        <td>' + (feature.properties['Nom'] !== null ? Autolinker.link(String(feature.properties['Nom'])) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_Phasejanv2020mai2021_10_0(feature) {
+            switch(String(feature.properties['Layer'])) {
+                case 'Gare SGP':
+                    return {
+                pane: 'pane_Phasejanv2020mai2021_10',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,169,244,0.38)',
+            }
+                    break;
+                case 'Lot privé ZAC':
+                    return {
+                pane: 'pane_Phasejanv2020mai2021_10',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(240,132,2,0.38)',
+            }
+                    break;
+                case 'RATP':
+                    return {
+                pane: 'pane_Phasejanv2020mai2021_10',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,200,20,0.38)',
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_Phasejanv2020mai2021_10');
+        map.getPane('pane_Phasejanv2020mai2021_10').style.zIndex = 410;
+        map.getPane('pane_Phasejanv2020mai2021_10').style['mix-blend-mode'] = 'normal';
+        var layer_Phasejanv2020mai2021_10 = new L.geoJson(json_Phasejanv2020mai2021_10, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_Phasejanv2020mai2021_10',
+            onEachFeature: pop_Phasejanv2020mai2021_10,
+            style: style_Phasejanv2020mai2021_10_0,
+        });
+        bounds_group.addLayer(layer_Phasejanv2020mai2021_10);
+        function pop_TravauxZacVHugo_11(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Layer'] !== null ? Autolinker.link(String(feature.properties['Layer'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Phase'] !== null ? Autolinker.link(String(feature.properties['Phase'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Début tvx'] !== null ? Autolinker.link(String(feature.properties['Début tvx'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Fin trvx'] !== null ? Autolinker.link(String(feature.properties['Fin trvx'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Nom</th>\
+                        <td>' + (feature.properties['Nom'] !== null ? Autolinker.link(String(feature.properties['Nom'])) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_TravauxZacVHugo_11_0(feature) {
+            switch(String(feature.properties['Layer'])) {
+                case 'COLLEGE':
+                    return {
+                pane: 'pane_TravauxZacVHugo_11',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(192,22,164,0.38)',
+            }
+                    break;
+                case 'Demol':
+                    return {
+                pane: 'pane_TravauxZacVHugo_11',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(233,195,40,0.38)',
+            }
+                    break;
+                case 'EP':
+                    return {
+                pane: 'pane_TravauxZacVHugo_11',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(77,87,96,0.38)',
+            }
+                    break;
+                case 'EP PROV':
+                    return {
+                pane: 'pane_TravauxZacVHugo_11',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(77,87,96,0.38)',
+            }
+                    break;
+                case 'Gare SGP':
+                    return {
+                pane: 'pane_TravauxZacVHugo_11',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,169,244,0.38)',
+            }
+                    break;
+                case 'Lot privé ZAC':
+                    return {
+                pane: 'pane_TravauxZacVHugo_11',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(240,132,2,0.38)',
+            }
+                    break;
+                case 'RATP':
+                    return {
+                pane: 'pane_TravauxZacVHugo_11',
+                opacity: 1,
+                color: 'rgba(0,0,0,0.38)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,200,20,0.38)',
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_TravauxZacVHugo_11');
+        map.getPane('pane_TravauxZacVHugo_11').style.zIndex = 411;
+        map.getPane('pane_TravauxZacVHugo_11').style['mix-blend-mode'] = 'normal';
+        var layer_TravauxZacVHugo_11 = new L.geoJson(json_TravauxZacVHugo_11, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_TravauxZacVHugo_11',
+            onEachFeature: pop_TravauxZacVHugo_11,
+            style: style_TravauxZacVHugo_11_0,
+        });
+        bounds_group.addLayer(layer_TravauxZacVHugo_11);
+        map.addLayer(layer_TravauxZacVHugo_11);
         var osmGeocoder = new L.Control.OSMGeocoder({
             collapsed: false,
             position: 'topright',
@@ -230,30 +1498,173 @@
         });
         osmGeocoder.addTo(map);
         var baseMaps = {};
-        L.control.layers(baseMaps,{'Travaux Zac V.Hugo<br /><table><tr><td style="text-align: center;"><img src="legend/TravauxZacVHugo_0_COLLEGE0.png" /></td><td>COLLEGE</td></tr><tr><td style="text-align: center;"><img src="legend/TravauxZacVHugo_0_Demol1.png" /></td><td>Demol</td></tr><tr><td style="text-align: center;"><img src="legend/TravauxZacVHugo_0_EP2.png" /></td><td>EP</td></tr><tr><td style="text-align: center;"><img src="legend/TravauxZacVHugo_0_EPPROV3.png" /></td><td>EP PROV</td></tr><tr><td style="text-align: center;"><img src="legend/TravauxZacVHugo_0_GareSGP4.png" /></td><td>Gare SGP</td></tr><tr><td style="text-align: center;"><img src="legend/TravauxZacVHugo_0_LOTLotprivZAC5.png" /></td><td>LOT Lot privé ZAC</td></tr><tr><td style="text-align: center;"><img src="legend/TravauxZacVHugo_0_LotprivZAC6.png" /></td><td>Lot privé ZAC</td></tr><tr><td style="text-align: center;"><img src="legend/TravauxZacVHugo_0_RATP7.png" /></td><td>RATP</td></tr></table>': layer_TravauxZacVHugo_0,},{collapsed:false}).addTo(map);
+        L.control.layers(baseMaps,{'Travaux Zac V.Hugo<br /><table><tr><td style="text-align: center;"><img src="legend/TravauxZacVHugo_11_COLLEGE0.png" /></td><td>COLLEGE</td></tr><tr><td style="text-align: center;"><img src="legend/TravauxZacVHugo_11_Demol1.png" /></td><td>Demol</td></tr><tr><td style="text-align: center;"><img src="legend/TravauxZacVHugo_11_EP2.png" /></td><td>EP</td></tr><tr><td style="text-align: center;"><img src="legend/TravauxZacVHugo_11_EPPROV3.png" /></td><td>EP PROV</td></tr><tr><td style="text-align: center;"><img src="legend/TravauxZacVHugo_11_GareSGP4.png" /></td><td>Gare SGP</td></tr><tr><td style="text-align: center;"><img src="legend/TravauxZacVHugo_11_LotprivZAC5.png" /></td><td>Lot privé ZAC</td></tr><tr><td style="text-align: center;"><img src="legend/TravauxZacVHugo_11_RATP6.png" /></td><td>RATP</td></tr></table>': layer_TravauxZacVHugo_11,'Phase janv 2020-mai 2021<br /><table><tr><td style="text-align: center;"><img src="legend/Phasejanv2020mai2021_10_GareSGP0.png" /></td><td>Gare SGP</td></tr><tr><td style="text-align: center;"><img src="legend/Phasejanv2020mai2021_10_LotprivZAC1.png" /></td><td>Lot privé ZAC</td></tr><tr><td style="text-align: center;"><img src="legend/Phasejanv2020mai2021_10_RATP2.png" /></td><td>RATP</td></tr></table>': layer_Phasejanv2020mai2021_10,'Phase mai 2021-Déc 2021<br /><table><tr><td style="text-align: center;"><img src="legend/Phasemai2021Dc2021_9_EP0.png" /></td><td>EP</td></tr><tr><td style="text-align: center;"><img src="legend/Phasemai2021Dc2021_9_EPPROV1.png" /></td><td>EP PROV</td></tr><tr><td style="text-align: center;"><img src="legend/Phasemai2021Dc2021_9_GareSGP2.png" /></td><td>Gare SGP</td></tr><tr><td style="text-align: center;"><img src="legend/Phasemai2021Dc2021_9_LOTprivZAC3.png" /></td><td>LOT privé ZAC</td></tr><tr><td style="text-align: center;"><img src="legend/Phasemai2021Dc2021_9_RATP4.png" /></td><td>RATP</td></tr></table>': layer_Phasemai2021Dc2021_9,'Phase janv 2022-juin 2022<br /><table><tr><td style="text-align: center;"><img src="legend/Phasejanv2022juin2022_8_EP0.png" /></td><td>EP</td></tr><tr><td style="text-align: center;"><img src="legend/Phasejanv2022juin2022_8_EPPROV1.png" /></td><td>EP PROV</td></tr><tr><td style="text-align: center;"><img src="legend/Phasejanv2022juin2022_8_GareSGP2.png" /></td><td>Gare SGP</td></tr><tr><td style="text-align: center;"><img src="legend/Phasejanv2022juin2022_8_LotprivZAC3.png" /></td><td>Lot privé ZAC</td></tr><tr><td style="text-align: center;"><img src="legend/Phasejanv2022juin2022_8_RATP4.png" /></td><td>RATP</td></tr></table>': layer_Phasejanv2022juin2022_8,'Phase juill 2022-déc 2022<br /><table><tr><td style="text-align: center;"><img src="legend/Phasejuill2022dc2022_7_EP0.png" /></td><td>EP</td></tr><tr><td style="text-align: center;"><img src="legend/Phasejuill2022dc2022_7_EPPROV1.png" /></td><td>EP PROV</td></tr><tr><td style="text-align: center;"><img src="legend/Phasejuill2022dc2022_7_GareSGP2.png" /></td><td>Gare SGP</td></tr><tr><td style="text-align: center;"><img src="legend/Phasejuill2022dc2022_7_LotprivZAC3.png" /></td><td>Lot privé ZAC</td></tr><tr><td style="text-align: center;"><img src="legend/Phasejuill2022dc2022_7_RATP4.png" /></td><td>RATP</td></tr></table>': layer_Phasejuill2022dc2022_7,'Phase jan 2023-juin 2023<br /><table><tr><td style="text-align: center;"><img src="legend/Phasejan2023juin2023_6_EP0.png" /></td><td>EP</td></tr><tr><td style="text-align: center;"><img src="legend/Phasejan2023juin2023_6_EPPROV1.png" /></td><td>EP PROV</td></tr><tr><td style="text-align: center;"><img src="legend/Phasejan2023juin2023_6_GareSGP2.png" /></td><td>Gare SGP</td></tr><tr><td style="text-align: center;"><img src="legend/Phasejan2023juin2023_6_LotprivZAC3.png" /></td><td>Lot privé ZAC</td></tr><tr><td style="text-align: center;"><img src="legend/Phasejan2023juin2023_6_RATP4.png" /></td><td>RATP</td></tr></table>': layer_Phasejan2023juin2023_6,'Phase juill 2023-Fév 2024<br /><table><tr><td style="text-align: center;"><img src="legend/Phasejuill2023Fv2024_5_EP0.png" /></td><td>EP</td></tr><tr><td style="text-align: center;"><img src="legend/Phasejuill2023Fv2024_5_EPPROV1.png" /></td><td>EP PROV</td></tr><tr><td style="text-align: center;"><img src="legend/Phasejuill2023Fv2024_5_GareSGP2.png" /></td><td>Gare SGP</td></tr><tr><td style="text-align: center;"><img src="legend/Phasejuill2023Fv2024_5_LotprivZAC3.png" /></td><td>Lot privé ZAC</td></tr><tr><td style="text-align: center;"><img src="legend/Phasejuill2023Fv2024_5_RATP4.png" /></td><td>RATP</td></tr></table>': layer_Phasejuill2023Fv2024_5,'Phase mars 2024-déc 2024<br /><table><tr><td style="text-align: center;"><img src="legend/Phasemars2024dc2024_4_EP0.png" /></td><td>EP</td></tr><tr><td style="text-align: center;"><img src="legend/Phasemars2024dc2024_4_EPPROV1.png" /></td><td>EP PROV</td></tr><tr><td style="text-align: center;"><img src="legend/Phasemars2024dc2024_4_GareSGP2.png" /></td><td>Gare SGP</td></tr><tr><td style="text-align: center;"><img src="legend/Phasemars2024dc2024_4_LotprivZAC3.png" /></td><td>Lot privé ZAC</td></tr><tr><td style="text-align: center;"><img src="legend/Phasemars2024dc2024_4_RATP4.png" /></td><td>RATP</td></tr></table>': layer_Phasemars2024dc2024_4,'Phase janv 2025-nov 2025<br /><table><tr><td style="text-align: center;"><img src="legend/Phasejanv2025nov2025_3_EP0.png" /></td><td>EP</td></tr><tr><td style="text-align: center;"><img src="legend/Phasejanv2025nov2025_3_EPPROV1.png" /></td><td>EP PROV</td></tr><tr><td style="text-align: center;"><img src="legend/Phasejanv2025nov2025_3_GareSGP2.png" /></td><td>Gare SGP</td></tr><tr><td style="text-align: center;"><img src="legend/Phasejanv2025nov2025_3_LotprivZAC3.png" /></td><td>Lot privé ZAC</td></tr><tr><td style="text-align: center;"><img src="legend/Phasejanv2025nov2025_3_RATP4.png" /></td><td>RATP</td></tr></table>': layer_Phasejanv2025nov2025_3,'Phase déc 2025-oct 2026<br /><table><tr><td style="text-align: center;"><img src="legend/Phasedc2025oct2026_2_EP0.png" /></td><td>EP</td></tr><tr><td style="text-align: center;"><img src="legend/Phasedc2025oct2026_2_EPPROV1.png" /></td><td>EP PROV</td></tr><tr><td style="text-align: center;"><img src="legend/Phasedc2025oct2026_2_GareSGP2.png" /></td><td>Gare SGP</td></tr><tr><td style="text-align: center;"><img src="legend/Phasedc2025oct2026_2_LotprivZAC3.png" /></td><td>Lot privé ZAC</td></tr><tr><td style="text-align: center;"><img src="legend/Phasedc2025oct2026_2_RATP4.png" /></td><td>RATP</td></tr></table>': layer_Phasedc2025oct2026_2,'Phase nov 2026-avr 2027<br /><table><tr><td style="text-align: center;"><img src="legend/Phasenov2026avr2027_1_EP0.png" /></td><td>EP</td></tr><tr><td style="text-align: center;"><img src="legend/Phasenov2026avr2027_1_EPPROV1.png" /></td><td>EP PROV</td></tr><tr><td style="text-align: center;"><img src="legend/Phasenov2026avr2027_1_GareSGP2.png" /></td><td>Gare SGP</td></tr><tr><td style="text-align: center;"><img src="legend/Phasenov2026avr2027_1_LotprivZAC3.png" /></td><td>Lot privé ZAC</td></tr><tr><td style="text-align: center;"><img src="legend/Phasenov2026avr2027_1_RATP4.png" /></td><td>RATP</td></tr></table>': layer_Phasenov2026avr2027_1,'Phase mai 2027-fév 2028<br /><table><tr><td style="text-align: center;"><img src="legend/Phasemai2027fv2028_0_EP0.png" /></td><td>EP</td></tr><tr><td style="text-align: center;"><img src="legend/Phasemai2027fv2028_0_EPPROV1.png" /></td><td>EP PROV</td></tr><tr><td style="text-align: center;"><img src="legend/Phasemai2027fv2028_0_GareSGP2.png" /></td><td>Gare SGP</td></tr><tr><td style="text-align: center;"><img src="legend/Phasemai2027fv2028_0_LotprivZAC3.png" /></td><td>Lot privé ZAC</td></tr><tr><td style="text-align: center;"><img src="legend/Phasemai2027fv2028_0_RATP4.png" /></td><td>RATP</td></tr></table>': layer_Phasemai2027fv2028_0,},{collapsed:false}).addTo(map);
         setBounds();
         var i = 0;
-        layer_TravauxZacVHugo_0.eachLayer(function(layer) {
+        layer_Phasemai2027fv2028_0.eachLayer(function(layer) {
             var context = {
                 feature: layer.feature,
                 variables: {}
             };
-            layer.bindTooltip((layer.feature.properties['Nom'] !== null?String('<div style="color: #000000; font-size: 8pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Nom']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_TravauxZacVHugo_0'});
+            layer.bindTooltip((layer.feature.properties['Nom'] !== null?String('<div style="color: #000000; font-size: 8pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Nom']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_Phasemai2027fv2028_0'});
             labels.push(layer);
             totalMarkers += 1;
               layer.added = true;
               addLabel(layer, i);
               i++;
         });
-        resetLabels([layer_TravauxZacVHugo_0]);
+        var i = 0;
+        layer_Phasenov2026avr2027_1.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['Nom'] !== null?String('<div style="color: #000000; font-size: 8pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Nom']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_Phasenov2026avr2027_1'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        var i = 0;
+        layer_Phasedc2025oct2026_2.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['Nom'] !== null?String('<div style="color: #000000; font-size: 8pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Nom']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_Phasedc2025oct2026_2'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        var i = 0;
+        layer_Phasejanv2025nov2025_3.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['Nom'] !== null?String('<div style="color: #000000; font-size: 8pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Nom']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_Phasejanv2025nov2025_3'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        var i = 0;
+        layer_Phasemars2024dc2024_4.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['Nom'] !== null?String('<div style="color: #000000; font-size: 8pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Nom']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_Phasemars2024dc2024_4'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        var i = 0;
+        layer_Phasejuill2023Fv2024_5.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['Nom'] !== null?String('<div style="color: #000000; font-size: 8pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Nom']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_Phasejuill2023Fv2024_5'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        var i = 0;
+        layer_Phasejan2023juin2023_6.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['Nom'] !== null?String('<div style="color: #000000; font-size: 8pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Nom']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_Phasejan2023juin2023_6'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        var i = 0;
+        layer_Phasejuill2022dc2022_7.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['Nom'] !== null?String('<div style="color: #000000; font-size: 8pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Nom']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_Phasejuill2022dc2022_7'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        var i = 0;
+        layer_Phasejanv2022juin2022_8.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['Nom'] !== null?String('<div style="color: #000000; font-size: 8pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Nom']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_Phasejanv2022juin2022_8'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        var i = 0;
+        layer_Phasemai2021Dc2021_9.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['Nom'] !== null?String('<div style="color: #000000; font-size: 8pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Nom']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_Phasemai2021Dc2021_9'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        var i = 0;
+        layer_Phasejanv2020mai2021_10.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['Nom'] !== null?String('<div style="color: #000000; font-size: 8pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Nom']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_Phasejanv2020mai2021_10'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        var i = 0;
+        layer_TravauxZacVHugo_11.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['Nom'] !== null?String('<div style="color: #000000; font-size: 8pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Nom']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_TravauxZacVHugo_11'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        resetLabels([layer_Phasemai2027fv2028_0,layer_Phasenov2026avr2027_1,layer_Phasedc2025oct2026_2,layer_Phasejanv2025nov2025_3,layer_Phasemars2024dc2024_4,layer_Phasejuill2023Fv2024_5,layer_Phasejan2023juin2023_6,layer_Phasejuill2022dc2022_7,layer_Phasejanv2022juin2022_8,layer_Phasemai2021Dc2021_9,layer_Phasejanv2020mai2021_10,layer_TravauxZacVHugo_11]);
         map.on("zoomend", function(){
-            resetLabels([layer_TravauxZacVHugo_0]);
+            resetLabels([layer_Phasemai2027fv2028_0,layer_Phasenov2026avr2027_1,layer_Phasedc2025oct2026_2,layer_Phasejanv2025nov2025_3,layer_Phasemars2024dc2024_4,layer_Phasejuill2023Fv2024_5,layer_Phasejan2023juin2023_6,layer_Phasejuill2022dc2022_7,layer_Phasejanv2022juin2022_8,layer_Phasemai2021Dc2021_9,layer_Phasejanv2020mai2021_10,layer_TravauxZacVHugo_11]);
         });
         map.on("layeradd", function(){
-            resetLabels([layer_TravauxZacVHugo_0]);
+            resetLabels([layer_Phasemai2027fv2028_0,layer_Phasenov2026avr2027_1,layer_Phasedc2025oct2026_2,layer_Phasejanv2025nov2025_3,layer_Phasemars2024dc2024_4,layer_Phasejuill2023Fv2024_5,layer_Phasejan2023juin2023_6,layer_Phasejuill2022dc2022_7,layer_Phasejanv2022juin2022_8,layer_Phasemai2021Dc2021_9,layer_Phasejanv2020mai2021_10,layer_TravauxZacVHugo_11]);
         });
         map.on("layerremove", function(){
-            resetLabels([layer_TravauxZacVHugo_0]);
+            resetLabels([layer_Phasemai2027fv2028_0,layer_Phasenov2026avr2027_1,layer_Phasedc2025oct2026_2,layer_Phasejanv2025nov2025_3,layer_Phasemars2024dc2024_4,layer_Phasejuill2023Fv2024_5,layer_Phasejan2023juin2023_6,layer_Phasejuill2022dc2022_7,layer_Phasejanv2022juin2022_8,layer_Phasemai2021Dc2021_9,layer_Phasejanv2020mai2021_10,layer_TravauxZacVHugo_11]);
         });
         </script>
     </body>
