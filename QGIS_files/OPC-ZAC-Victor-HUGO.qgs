@@ -49,10 +49,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>257894.41223119344795123</xmin>
-      <ymin>6241229.07987848576158285</ymin>
-      <xmax>258341.89165514759952202</xmax>
-      <ymax>6241575.04905377794057131</ymax>
+      <xmin>257847.97280981906806119</xmin>
+      <ymin>6241250.88868436682969332</ymin>
+      <xmax>258295.45223377321963198</xmax>
+      <ymax>6241596.85785965900868177</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -5175,7 +5175,7 @@ def my_form_open(dialog, layer, feature):
         <columns>
           <column width="-1" hidden="0" type="field" name="Layer"/>
           <column width="-1" hidden="0" type="field" name="Phase"/>
-          <column width="-1" hidden="0" type="field" name="Nom"/>
+          <column width="217" hidden="0" type="field" name="Nom"/>
           <column width="-1" hidden="0" type="field" name="Début trvx"/>
           <column width="-1" hidden="0" type="field" name="Fin trvx"/>
           <column width="-1" hidden="0" type="field" name="Start"/>
@@ -5219,7 +5219,7 @@ def my_form_open(dialog, layer, feature):
         <default field="Start" expression=""/>
         <default field="End" expression=""/>
       </defaults>
-      <previewExpression></previewExpression>
+      <previewExpression>COALESCE( "Layer", '&lt;NULL>' )</previewExpression>
     </maplayer>
   </projectlayers>
   <properties>
