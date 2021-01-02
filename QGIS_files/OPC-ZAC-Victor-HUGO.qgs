@@ -5,40 +5,40 @@
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Travaux_Zac_V_Hugo20201229215053259" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/QGIS_files/Shapefile/Travaux Zac V.Hugo.shx" name="Travaux Zac V.Hugo">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Travaux_Zac_V_Hugo20210102221652790" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/01-Github/OPC-ZAC-Victor-Map/QGIS_files/Shapefile/Travaux Zac V.Hugo.shp" name="Travaux Zac V.Hugo">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Phase_janv_20_mai_202120201230203205672" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/QGIS_files/Shapefile/Phase janv 20-mai 2021.shp" name="Phase janv 2020-mai 2021">
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Phase_janv_20_mai_202120201230203205672" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/01-Github/OPC-ZAC-Victor-Map/QGIS_files/Shapefile/Phase janv 20-mai 2021.shp" name="Phase janv 2020-mai 2021">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Phase_mai_2021___Déc_202120201230204630207" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/QGIS_files/Shapefile/Phase mai 2021 - Déc 2021.shp" name="Phase mai 2021-Déc 2021">
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Phase_mai_2021___Déc_202120201230204630207" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/01-Github/OPC-ZAC-Victor-Map/QGIS_files/Shapefile/Phase mai 2021 - Déc 2021.shp" name="Phase mai 2021-Déc 2021">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Phase_janv_2022_juin_202220201230210544070" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/QGIS_files/Shapefile/Phase janv 2022-juin 2022.shp" name="Phase janv 2022-juin 2022">
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Phase_janv_2022_juin_202220201230210544070" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/01-Github/OPC-ZAC-Victor-Map/QGIS_files/Shapefile/Phase janv 2022-juin 2022.shp" name="Phase janv 2022-juin 2022">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Phase_juill_2022_mai_202220201230211240428" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/QGIS_files/Shapefile/Phase juill 2022-mai 2022.shp" name="Phase juill 2022-déc 2022">
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Phase_juill_2022_mai_202220201230211240428" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/01-Github/OPC-ZAC-Victor-Map/QGIS_files/Shapefile/Phase juill 2022-mai 2022.shp" name="Phase juill 2022-déc 2022">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Phase_jan_2023_juin_202320201230212044642" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/QGIS_files/Shapefile/Phase jan 2023-juin 2023.shp" name="Phase jan 2023-juin 2023">
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Phase_jan_2023_juin_202320201230212044642" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/01-Github/OPC-ZAC-Victor-Map/QGIS_files/Shapefile/Phase jan 2023-juin 2023.shp" name="Phase jan 2023-juin 2023">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Phase_juill_2023_Fév_202420201230212422516" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/QGIS_files/Shapefile/Phase juill 2023-Fév 2024.shp" name="Phase juill 2023-Fév 2024">
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Phase_juill_2023_Fév_202420201230212422516" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/01-Github/OPC-ZAC-Victor-Map/QGIS_files/Shapefile/Phase juill 2023-Fév 2024.shp" name="Phase juill 2023-Fév 2024">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Phase_mars_2024_déc_202420201230214137159" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/QGIS_files/Shapefile/Phase mars 2024-déc 2024.shp" name="Phase mars 2024-déc 2024">
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Phase_mars_2024_déc_202420201230214137159" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/01-Github/OPC-ZAC-Victor-Map/QGIS_files/Shapefile/Phase mars 2024-déc 2024.shp" name="Phase mars 2024-déc 2024">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Phase_janv_2025_nov_202520201230214923314" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/QGIS_files/Shapefile/Phase janv 2025-nov 2025.shp" name="Phase janv 2025-nov 2025">
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Phase_janv_2025_nov_202520201230214923314" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/01-Github/OPC-ZAC-Victor-Map/QGIS_files/Shapefile/Phase janv 2025-nov 2025.shp" name="Phase janv 2025-nov 2025">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Phase_déc_2025_oct_202720201230215405788" source="C:\Users\AMDJAR\Desktop\Local affaires\OPC-Bagneux\QGIS_files\Shapefile\Phase déc 2025-oct 2027.shp" name="Phase déc 2025-oct 2026">
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Phase_déc_2025_oct_202720201230215405788" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/01-Github/OPC-ZAC-Victor-Map/QGIS_files/Shapefile/Phase déc 2025-oct 2027.shp" name="Phase déc 2025-oct 2026">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Phase_nov_2027_avr_202820201230215523285" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/QGIS_files/Shapefile/Phase nov 2027-avr 2028.shp" name="Phase nov 2026-avr 2027">
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Phase_nov_2027_avr_202820201230215523285" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/01-Github/OPC-ZAC-Victor-Map/QGIS_files/Shapefile/Phase nov 2027-avr 2028.shp" name="Phase nov 2026-avr 2027">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Phase_mai_2028_avr_202820201230215815826" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/QGIS_files/Shapefile/Phase mai 2028-avr 2028.shp" name="Phase mai 2027-fév 2028">
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="Phase_mai_2028_avr_202820201230215815826" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/01-Github/OPC-ZAC-Victor-Map/QGIS_files/Shapefile/Phase mai 2028-avr 2028.shp" name="Phase mai 2027-fév 2028">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="OpenStreetMap20201231140910765" source="&lt;GDAL_WMS>&#xa;  &lt;Service name=&quot;TMS&quot;>&#xa;    &lt;ServerUrl>http://tile.openstreetmap.org/${z}/${x}/${y}.png&lt;/ServerUrl>&#xa;  &lt;/Service>&#xa;  &lt;DataWindow>&#xa;    &lt;UpperLeftX>-20037508.34&lt;/UpperLeftX>&#xa;    &lt;UpperLeftY>20037508.34&lt;/UpperLeftY>&#xa;    &lt;LowerRightX>20037508.34&lt;/LowerRightX>&#xa;    &lt;LowerRightY>-20037508.34&lt;/LowerRightY>&#xa;    &lt;TileLevel>19&lt;/TileLevel>&#xa;    &lt;TileCountX>1&lt;/TileCountX>&#xa;    &lt;TileCountY>1&lt;/TileCountY>&#xa;    &lt;YOrigin>top&lt;/YOrigin>&#xa;  &lt;/DataWindow>&#xa;  &lt;Projection>EPSG:3857&lt;/Projection>&#xa;  &lt;BlockSizeX>256&lt;/BlockSizeX>&#xa;  &lt;BlockSizeY>256&lt;/BlockSizeY>&#xa;  &lt;BandsCount>3&lt;/BandsCount>&#xa;  &lt;Cache />&#xa;&lt;/GDAL_WMS>&#xa;" name="OpenStreetMap">
@@ -49,10 +49,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>257782.23932756544672884</xmin>
-      <ymin>6241233.18877605441957712</ymin>
-      <xmax>258229.71875151959829964</xmax>
-      <ymax>6241579.15795134659856558</ymax>
+      <xmin>257894.41223119344795123</xmin>
+      <ymin>6241229.07987848576158285</ymin>
+      <xmax>258341.89165514759952202</xmax>
+      <ymax>6241575.04905377794057131</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -70,28 +70,28 @@
     </destinationsrs>
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_nov_2027_avr_202820201230215523285"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_juill_2022_mai_202220201230211240428"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_mars_2024_déc_202420201230214137159"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_janv_2025_nov_202520201230214923314"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_janv_20_mai_202120201230203205672"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_janv_2022_juin_202220201230210544070"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_mai_2021___Déc_202120201230204630207"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_déc_2025_oct_202720201230215405788"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="memory_20201231213056198"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="File_220201231212915873"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenStreetMap20201229215242513"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_juill_2023_Fév_202420201230212422516"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_jan_2023_juin_202320201230212044642"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="File_220201231212915873"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="File120201231212858665"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenStreetMap20201231140910765"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_mai_2028_avr_202820201230215815826"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="File120201231212858665"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_nov_2027_avr_202820201230215523285"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Travaux_Zac_V_Hugo20201229215053259"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_juill_2023_Fév_202420201230212422516"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Travaux_Zac_V_Hugo20210102221652790"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_mars_2024_déc_202420201230214137159"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_janv_20_mai_202120201230203205672"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="memory_20201231213056198"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_mai_2021___Déc_202120201230204630207"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_janv_2025_nov_202520201230214923314"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_déc_2025_oct_202720201230215405788"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_janv_2022_juin_202220201230210544070"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenStreetMap20201229215242513"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <layer-tree-canvas>
     <custom-order enabled="0">
-      <item>Travaux_Zac_V_Hugo20201229215053259</item>
       <item>Phase_janv_20_mai_202120201230203205672</item>
       <item>Phase_mai_2021___Déc_202120201230204630207</item>
       <item>Phase_janv_2022_juin_202220201230210544070</item>
@@ -104,12 +104,13 @@
       <item>Phase_nov_2027_avr_202820201230215523285</item>
       <item>Phase_mai_2028_avr_202820201230215815826</item>
       <item>OpenStreetMap20201231140910765</item>
+      <item>Travaux_Zac_V_Hugo20210102221652790</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Travaux Zac V.Hugo" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Travaux_Zac_V_Hugo20201229215053259" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Travaux_Zac_V_Hugo20210102221652790" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Phase janv 2020-mai 2021" showFeatureCount="0">
@@ -4782,8 +4783,8 @@ def my_form_open(dialog, layer, feature):
         <xmax>1650066.87520217197015882</xmax>
         <ymax>8178425.97182029578834772</ymax>
       </extent>
-      <id>Travaux_Zac_V_Hugo20201229215053259</id>
-      <datasource>./Shapefile/Travaux Zac V.Hugo.shx</datasource>
+      <id>Travaux_Zac_V_Hugo20210102221652790</id>
+      <datasource>./Shapefile/Travaux Zac V.Hugo.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4823,8 +4824,11 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="Fin trvx">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="DateTime" name="Date Test">
-          <widgetv2config fieldEditable="1" calendar_popup="1" allow_null="0" display_format="yyyy-MM-dd" field_format="yyyy-MM-dd" constraint="" labelOnTop="0" constraintDescription="" notNull="0"/>
+        <edittype widgetv2type="Hidden" name="Start">
+          <widgetv2config fieldEditable="1" constraint="" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="Hidden" name="End">
+          <widgetv2config fieldEditable="1" constraint="" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
       <renderer-v2 attr="Layer" forceraster="0" symbollevels="0" type="categorizedSymbol" enableorderby="0">
@@ -4840,7 +4844,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="192,22,164,255"/>
+              <prop k="color" v="200,75,169,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -4855,7 +4859,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="fill" name="1">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="233,195,40,255"/>
+              <prop k="color" v="252,246,64,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -4932,7 +4936,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="163,242,161,255"/>
+              <prop k="color" v="243,122,118,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -4967,7 +4971,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/bufferSizeInMapUnits" value="false"/>
         <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/bufferTransp" value="0"/>
-        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidInside" value="true"/>
         <property key="labeling/centroidWhole" value="false"/>
         <property key="labeling/decimals" value="3"/>
         <property key="labeling/displayAll" value="false"/>
@@ -5012,8 +5016,8 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/obstacleType" value="0"/>
         <property key="labeling/offsetType" value="0"/>
         <property key="labeling/placeDirectionSymbol" value="0"/>
-        <property key="labeling/placement" value="2"/>
-        <property key="labeling/placementFlags" value="14"/>
+        <property key="labeling/placement" value="0"/>
+        <property key="labeling/placementFlags" value="10"/>
         <property key="labeling/plussign" value="false"/>
         <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
         <property key="labeling/preserveRotation" value="true"/>
@@ -5079,31 +5083,30 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/shapeType" value="0"/>
         <property key="labeling/substitutions" value="&lt;substitutions/>"/>
         <property key="labeling/textColorA" value="255"/>
-        <property key="labeling/textColorB" value="28"/>
-        <property key="labeling/textColorG" value="26"/>
-        <property key="labeling/textColorR" value="227"/>
+        <property key="labeling/textColorB" value="18"/>
+        <property key="labeling/textColorG" value="18"/>
+        <property key="labeling/textColorR" value="244"/>
         <property key="labeling/textTransp" value="0"/>
         <property key="labeling/upsidedownLabels" value="0"/>
         <property key="labeling/useSubstitutions" value="false"/>
         <property key="labeling/wrapChar" value=""/>
-        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/xOffset" value="1"/>
         <property key="labeling/yOffset" value="0"/>
         <property key="labeling/zIndex" value="0"/>
-        <property key="qgis2web/Time from" value="4"/>
-        <property key="qgis2web/Time to" value="5"/>
         <property key="qgis2web/Visible" value="true"/>
         <property key="qgis2web/popup/Début trvx" value="header label"/>
-        <property key="qgis2web/popup/Début tvx" value="no label"/>
+        <property key="qgis2web/popup/End" value="no label"/>
         <property key="qgis2web/popup/Fin trvx" value="header label"/>
         <property key="qgis2web/popup/Layer" value="no label"/>
         <property key="qgis2web/popup/Nom" value="inline label"/>
         <property key="qgis2web/popup/Phase" value="no label"/>
+        <property key="qgis2web/popup/Start" value="no label"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>62</layerTransparency>
+      <layerTransparency>50</layerTransparency>
       <displayfield>Layer</displayfield>
       <label>0</label>
       <labelattributes>
@@ -5162,20 +5165,22 @@ def my_form_open(dialog, layer, feature):
         <alias field="Nom" index="2" name=""/>
         <alias field="Début trvx" index="3" name="Début des travaux"/>
         <alias field="Fin trvx" index="4" name="Fin des travaux"/>
-        <alias field="Date Test" index="5" name=""/>
+        <alias field="Start" index="5" name=""/>
+        <alias field="End" index="6" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;Date Test&quot;" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
-          <column width="259" hidden="0" type="field" name="Layer"/>
+          <column width="-1" hidden="0" type="field" name="Layer"/>
           <column width="-1" hidden="0" type="field" name="Phase"/>
-          <column width="262" hidden="0" type="field" name="Fin trvx"/>
+          <column width="-1" hidden="0" type="field" name="Nom"/>
+          <column width="-1" hidden="0" type="field" name="Début trvx"/>
+          <column width="-1" hidden="0" type="field" name="Fin trvx"/>
+          <column width="-1" hidden="0" type="field" name="Start"/>
+          <column width="-1" hidden="0" type="field" name="End"/>
           <column width="-1" hidden="1" type="actions"/>
-          <column width="269" hidden="0" type="field" name="Nom"/>
-          <column width="261" hidden="0" type="field" name="Début trvx"/>
-          <column width="-1" hidden="0" type="field" name="Date Test"/>
         </columns>
       </attributetableconfig>
       <editform>.</editform>
@@ -5211,9 +5216,10 @@ def my_form_open(dialog, layer, feature):
         <default field="Nom" expression=""/>
         <default field="Début trvx" expression=""/>
         <default field="Fin trvx" expression=""/>
-        <default field="Date Test" expression=""/>
+        <default field="Start" expression=""/>
+        <default field="End" expression=""/>
       </defaults>
-      <previewExpression>COALESCE( "Layer", '&lt;NULL>' )</previewExpression>
+      <previewExpression></previewExpression>
     </maplayer>
   </projectlayers>
   <properties>
@@ -5253,10 +5259,8 @@ def my_form_open(dialog, layer, feature):
         <value>Phase_mai_2028_avr_202820201230215815826</value>
         <value>Phase_mars_2024_déc_202420201230214137159</value>
         <value>Phase_nov_2027_avr_202820201230215523285</value>
-        <value>Travaux_Zac_V_Hugo20201229215053259</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
-        <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
@@ -5283,10 +5287,8 @@ def my_form_open(dialog, layer, feature):
         <value>2</value>
         <value>2</value>
         <value>2</value>
-        <value>2</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
-        <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
@@ -5313,7 +5315,6 @@ def my_form_open(dialog, layer, feature):
         <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
-        <value>0.000000</value>
       </LayerSnappingToleranceList>
     </Digitizing>
     <qgis2web>
@@ -5321,7 +5322,7 @@ def my_form_open(dialog, layer, feature):
       <Showpopupsonhover type="bool">true</Showpopupsonhover>
       <Basemaps type="QString">OSM</Basemaps>
       <Exportfolder type="QString">C:\Users\AMDJAR\Desktop\Local affaires\OPC-Bagneux\01-Github\OPC-ZAC-Victor-Map</Exportfolder>
-      <mapFormat type="QString">openlayers</mapFormat>
+      <mapFormat type="QString">leaflet</mapFormat>
       <Precision type="QString">maintain</Precision>
       <Measuretool type="QString">Metric</Measuretool>
       <Usedebuglibraries type="bool">false</Usedebuglibraries>
@@ -5329,8 +5330,8 @@ def my_form_open(dialog, layer, feature):
         <value>OSM</value>
       </Baselayer>
       <Addlayerslist type="QString">Expanded</Addlayerslist>
-      <Highlightonhover type="bool">false</Highlightonhover>
       <MatchprojectCRS type="bool">false</MatchprojectCRS>
+      <Highlightonhover type="bool">false</Highlightonhover>
       <Addaddresssearch type="bool">true</Addaddresssearch>
       <Minzoomlevel type="QString">1</Minzoomlevel>
       <Geolocateuser type="bool">true</Geolocateuser>
