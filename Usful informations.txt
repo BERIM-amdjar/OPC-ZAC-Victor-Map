@@ -1,0 +1,15 @@
+Ceci est les codes des couleurs RVB utilisés dans le fichier planning général :
+
+Travaux lots prives ZAC :  F08402 #f08402 (orange) 
+
+Travaux RATP : 00C814 #00c814
+
+Travaux SGP :00A9F4  #00a9f4
+ 
+Travaux SADEV : 4D5760 #4d5760
+
+Plannification étude : 0000FF 
+
+
+SVG edeting : https://vectorpaint.yaks.co.nz/ 
+
