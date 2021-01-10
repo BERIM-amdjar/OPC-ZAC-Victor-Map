@@ -34,10 +34,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>258282.01509230985539034</xmin>
-      <ymin>6241887.94921621773391962</ymin>
-      <xmax>259291.98211485455976799</xmax>
-      <ymax>6242579.887566895224154</ymax>
+      <xmin>257502.14633364841574803</xmin>
+      <ymin>6241112.18935512471944094</ymin>
+      <xmax>259522.08037873782450333</xmax>
+      <ymax>6242496.06605647969990969</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -454,8 +454,11 @@
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
         <property key="labeling/zIndex" value="0"/>
+        <property key="qgis2web/Cluster" value="2"/>
         <property key="qgis2web/Visible" value="true"/>
+        <property key="qgis2web/popup/End" value="header label"/>
         <property key="qgis2web/popup/Nature" value="header label"/>
+        <property key="qgis2web/popup/Start" value="header label"/>
         <property key="qgis2web/popup/Statut" value="no label"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
@@ -1114,14 +1117,14 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="Fin trvx">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="Start">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        <edittype widgetv2type="Hidden" name="Start">
+          <widgetv2config fieldEditable="1" constraint="" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="End">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        <edittype widgetv2type="Hidden" name="End">
+          <widgetv2config fieldEditable="1" constraint="" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="Text">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        <edittype widgetv2type="Hidden" name="Text">
+          <widgetv2config fieldEditable="1" constraint="" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
@@ -1287,9 +1290,9 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/yOffset" value="0"/>
         <property key="labeling/zIndex" value="0"/>
         <property key="qgis2web/Visible" value="true"/>
-        <property key="qgis2web/popup/Début trvx" value="no label"/>
+        <property key="qgis2web/popup/Début trvx" value="header label"/>
         <property key="qgis2web/popup/End" value="no label"/>
-        <property key="qgis2web/popup/Fin trvx" value="no label"/>
+        <property key="qgis2web/popup/Fin trvx" value="header label"/>
         <property key="qgis2web/popup/Layer" value="no label"/>
         <property key="qgis2web/popup/Nom" value="no label"/>
         <property key="qgis2web/popup/Phase" value="no label"/>
@@ -1420,7 +1423,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="8000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
-        <xmin>1650058.84921781066805124</xmin>
+        <xmin>1649851.16490088799037039</xmin>
         <ymin>8178135.8552835313603282</ymin>
         <xmax>1650487.46469748462550342</xmax>
         <ymax>8178894.91386471875011921</ymax>
@@ -1724,8 +1727,11 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
         <property key="labeling/zIndex" value="0"/>
-        <property key="qgis2web/Visible" value="true"/>
-        <property key="qgis2web/popup/Nature" value="no label"/>
+        <property key="qgis2web/Cluster" value="2"/>
+        <property key="qgis2web/Visible" value="false"/>
+        <property key="qgis2web/popup/End" value="header label"/>
+        <property key="qgis2web/popup/Nature" value="header label"/>
+        <property key="qgis2web/popup/Start" value="header label"/>
         <property key="qgis2web/popup/Statut" value="no label"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
@@ -1838,7 +1844,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="8000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
-        <xmin>1650155.59852933511137962</xmin>
+        <xmin>1650021.89965672115795314</xmin>
         <ymin>8178220.95655526779592037</ymin>
         <xmax>1650231.01350079919211566</xmax>
         <ymax>8178315.30578479077666998</ymax>
@@ -2100,8 +2106,11 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
         <property key="labeling/zIndex" value="0"/>
+        <property key="qgis2web/Cluster" value="2"/>
         <property key="qgis2web/Visible" value="true"/>
-        <property key="qgis2web/popup/Nature" value="no label"/>
+        <property key="qgis2web/popup/End" value="header label"/>
+        <property key="qgis2web/popup/Nature" value="header label"/>
+        <property key="qgis2web/popup/Start" value="header label"/>
         <property key="qgis2web/popup/Statut" value="no label"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
