@@ -3,9 +3,9 @@
   <title></title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
-  <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="MAJ20210110231457832" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/01-Github/OPC-ZAC-Victor-Map/QGIS_files/Shapefile/MAJ.shp" name="OPC ZAC V. Hugo  (MAJ le 11/01/2021)">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="MAJ20210110231457832" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/01-Github/OPC-ZAC-Victor-Map/QGIS_files/Shapefile/MAJ.shp" name="OPC ZAC V. Hugo  (version de travail, MAJ 12/01/2021)">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Conflits20210110222145135" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/01-Github/OPC-ZAC-Victor-Map/QGIS_files/Shapefile/Conflits.shp" name="Conflits">
@@ -32,7 +32,7 @@
     <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Travaux_Zac_V_Hugo20210102221652790" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/01-Github/OPC-ZAC-Victor-Map/QGIS_files/Shapefile/Travaux Zac V.Hugo.shp" name="Travaux Zac V.Hugo construction">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="OpenStreetMap20201231140910765" source="&lt;GDAL_WMS>&#xa;  &lt;Service name=&quot;TMS&quot;>&#xa;    &lt;ServerUrl>http://tile.openstreetmap.org/${z}/${x}/${y}.png&lt;/ServerUrl>&#xa;  &lt;/Service>&#xa;  &lt;DataWindow>&#xa;    &lt;UpperLeftX>-20037508.34&lt;/UpperLeftX>&#xa;    &lt;UpperLeftY>20037508.34&lt;/UpperLeftY>&#xa;    &lt;LowerRightX>20037508.34&lt;/LowerRightX>&#xa;    &lt;LowerRightY>-20037508.34&lt;/LowerRightY>&#xa;    &lt;TileLevel>19&lt;/TileLevel>&#xa;    &lt;TileCountX>1&lt;/TileCountX>&#xa;    &lt;TileCountY>1&lt;/TileCountY>&#xa;    &lt;YOrigin>top&lt;/YOrigin>&#xa;  &lt;/DataWindow>&#xa;  &lt;Projection>EPSG:3857&lt;/Projection>&#xa;  &lt;BlockSizeX>256&lt;/BlockSizeX>&#xa;  &lt;BlockSizeY>256&lt;/BlockSizeY>&#xa;  &lt;BandsCount>3&lt;/BandsCount>&#xa;  &lt;Cache />&#xa;&lt;/GDAL_WMS>&#xa;" name="OpenStreetMap">
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="OpenStreetMap20201231140910765" source="&lt;GDAL_WMS>&#xa;  &lt;Service name=&quot;TMS&quot;>&#xa;    &lt;ServerUrl>http://tile.openstreetmap.org/${z}/${x}/${y}.png&lt;/ServerUrl>&#xa;  &lt;/Service>&#xa;  &lt;DataWindow>&#xa;    &lt;UpperLeftX>-20037508.34&lt;/UpperLeftX>&#xa;    &lt;UpperLeftY>20037508.34&lt;/UpperLeftY>&#xa;    &lt;LowerRightX>20037508.34&lt;/LowerRightX>&#xa;    &lt;LowerRightY>-20037508.34&lt;/LowerRightY>&#xa;    &lt;TileLevel>19&lt;/TileLevel>&#xa;    &lt;TileCountX>1&lt;/TileCountX>&#xa;    &lt;TileCountY>1&lt;/TileCountY>&#xa;    &lt;YOrigin>top&lt;/YOrigin>&#xa;  &lt;/DataWindow>&#xa;  &lt;Projection>EPSG:3857&lt;/Projection>&#xa;  &lt;BlockSizeX>256&lt;/BlockSizeX>&#xa;  &lt;BlockSizeY>256&lt;/BlockSizeY>&#xa;  &lt;BandsCount>3&lt;/BandsCount>&#xa;  &lt;Cache />&#xa;&lt;/GDAL_WMS>&#xa;" name="OpenStreetMap">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -40,10 +40,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>257712.79025111519149505</xmin>
-      <ymin>6241093.06225440092384815</ymin>
-      <xmax>258986.28780392245971598</xmax>
-      <ymax>6242444.49211482517421246</ymax>
+      <xmin>258350.25268735337886028</xmin>
+      <ymin>6241397.90793217532336712</ymin>
+      <xmax>258509.43988145430921577</xmax>
+      <ymax>6241566.83666472695767879</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -62,6 +62,7 @@
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_nov_2027_avr_202820201230215523285"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="nOTES20210111164808562"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_juill_2022_mai_202220201230211240428"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_juill_2023_Fév_202420201230212422516"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_jan_2023_juin_202320201230212044642"/>
@@ -102,9 +103,9 @@
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="OPC ZAC V. Hugo  (MAJ le 11/01/2021)" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="OPC ZAC V. Hugo  (version de travail, MAJ 12/01/2021)" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="MAJ20210110231457832" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="MAJ20210110231457832" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Conflits" showFeatureCount="0">
@@ -137,9 +138,9 @@
         <legendlayerfile isInOverview="0" layerid="Travaux_Zac_V_Hugo20210102221652790" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="OpenStreetMap" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="OpenStreetMap" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="OpenStreetMap20201231140910765" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="OpenStreetMap20201231140910765" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -466,7 +467,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>OPC ZAC V. Hugo  (MAJ le 11/01/2021)</layername>
+      <layername>OPC ZAC V. Hugo  (version de travail, MAJ 12/01/2021)</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=lcc +lat_1=48.25 +lat_2=49.75 +lat_0=49 +lon_0=3 +x_0=1700000 +y_0=8200000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -692,6 +693,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -717,23 +719,23 @@ def my_form_open(dialog, layer, feature):
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="Id" index="0" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="-16777216">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
           <column width="-1" hidden="1" type="actions"/>
           <column width="-1" hidden="0" type="field" name="Id"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
@@ -876,6 +878,9 @@ def my_form_open(dialog, layer, feature):
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="End">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Entreprise">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
@@ -1095,6 +1100,7 @@ def my_form_open(dialog, layer, feature):
         <property key="qgis2web/Cluster" value="2"/>
         <property key="qgis2web/Visible" value="true"/>
         <property key="qgis2web/popup/End" value="header label"/>
+        <property key="qgis2web/popup/Entreprise" value="header label"/>
         <property key="qgis2web/popup/Nature" value="header label"/>
         <property key="qgis2web/popup/Start" value="header label"/>
         <property key="qgis2web/popup/Statut" value="no label"/>
@@ -1161,6 +1167,7 @@ def my_form_open(dialog, layer, feature):
         <alias field="Nature" index="1" name=""/>
         <alias field="Start" index="2" name=""/>
         <alias field="End" index="3" name=""/>
+        <alias field="Entreprise" index="4" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -1168,8 +1175,8 @@ def my_form_open(dialog, layer, feature):
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;Nature&quot;" sortOrder="0">
         <columns>
           <column width="-1" hidden="1" type="actions"/>
-          <column width="455" hidden="0" type="field" name="Statut"/>
-          <column width="338" hidden="0" type="field" name="Nature"/>
+          <column width="296" hidden="0" type="field" name="Statut"/>
+          <column width="455" hidden="0" type="field" name="Nature"/>
         </columns>
       </attributetableconfig>
       <editform>.</editform>
@@ -1204,6 +1211,7 @@ def my_form_open(dialog, layer, feature):
         <default field="Nature" expression=""/>
         <default field="Start" expression=""/>
         <default field="End" expression=""/>
+        <default field="Entreprise" expression=""/>
       </defaults>
       <previewExpression>COALESCE( "id", '&lt;NULL>' )</previewExpression>
     </maplayer>
@@ -2913,6 +2921,7 @@ def my_form_open(dialog, layer, feature):
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
         <value>Conflits20210110222145135</value>
+        <value>MAJ20210110231457832</value>
         <value>Travaux_EP20210109213303647</value>
         <value>Travaux_Zac_V_Hugo20210102221652790</value>
         <value>Travaux_Zac_V_Hugo_espaces_publics20210108151150278</value>
@@ -2920,6 +2929,7 @@ def my_form_open(dialog, layer, feature):
         <value>Travaux_démolition20210110123003030</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
@@ -2936,8 +2946,10 @@ def my_form_open(dialog, layer, feature):
         <value>2</value>
         <value>2</value>
         <value>2</value>
+        <value>2</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
@@ -2948,6 +2960,7 @@ def my_form_open(dialog, layer, feature):
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
       <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
@@ -2966,7 +2979,6 @@ def my_form_open(dialog, layer, feature):
     </WMSKeywordList>
     <qgis2web>
       <Maxzoomlevel type="QString">28</Maxzoomlevel>
-      <Min type="QString">2147-48-36</Min>
       <Showpopupsonhover type="bool">false</Showpopupsonhover>
       <Basemaps type="QString">OSM</Basemaps>
       <Exportfolder type="QString">C:\Users\AMDJAR\Desktop\Local affaires\OPC-Bagneux\01-Github\OPC-ZAC-Victor-Map</Exportfolder>
@@ -2978,8 +2990,8 @@ def my_form_open(dialog, layer, feature):
         <value>OSM</value>
       </Baselayer>
       <Addlayerslist type="QString">Expanded</Addlayerslist>
-      <MatchprojectCRS type="bool">false</MatchprojectCRS>
       <Highlightonhover type="bool">false</Highlightonhover>
+      <MatchprojectCRS type="bool">false</MatchprojectCRS>
       <Addaddresssearch type="bool">true</Addaddresssearch>
       <Minzoomlevel type="QString">1</Minzoomlevel>
       <Geolocateuser type="bool">true</Geolocateuser>
@@ -2991,7 +3003,6 @@ def my_form_open(dialog, layer, feature):
       <Mappinglibrarylocation type="QString">Local</Mappinglibrarylocation>
       <Searchlayer type="QString"></Searchlayer>
       <Layersearch type="QString">None</Layersearch>
-      <Max type="QString">0--</Max>
     </qgis2web>
     <Variables>
       <variableNames type="QStringList"/>
