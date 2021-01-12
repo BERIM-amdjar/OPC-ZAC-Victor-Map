@@ -30,7 +30,9 @@
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Travaux_Zac_V_Hugo20210102221652790" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/01-Github/OPC-ZAC-Victor-Map/QGIS_files/Shapefile/Travaux Zac V.Hugo.shp" name="Travaux Zac V.Hugo construction">
-      <customproperties/>
+      <customproperties>
+        <property key="showFeatureCount" value="1"/>
+      </customproperties>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="OpenStreetMap20201231140910765" source="&lt;GDAL_WMS>&#xa;  &lt;Service name=&quot;TMS&quot;>&#xa;    &lt;ServerUrl>http://tile.openstreetmap.org/${z}/${x}/${y}.png&lt;/ServerUrl>&#xa;  &lt;/Service>&#xa;  &lt;DataWindow>&#xa;    &lt;UpperLeftX>-20037508.34&lt;/UpperLeftX>&#xa;    &lt;UpperLeftY>20037508.34&lt;/UpperLeftY>&#xa;    &lt;LowerRightX>20037508.34&lt;/LowerRightX>&#xa;    &lt;LowerRightY>-20037508.34&lt;/LowerRightY>&#xa;    &lt;TileLevel>19&lt;/TileLevel>&#xa;    &lt;TileCountX>1&lt;/TileCountX>&#xa;    &lt;TileCountY>1&lt;/TileCountY>&#xa;    &lt;YOrigin>top&lt;/YOrigin>&#xa;  &lt;/DataWindow>&#xa;  &lt;Projection>EPSG:3857&lt;/Projection>&#xa;  &lt;BlockSizeX>256&lt;/BlockSizeX>&#xa;  &lt;BlockSizeY>256&lt;/BlockSizeY>&#xa;  &lt;BandsCount>3&lt;/BandsCount>&#xa;  &lt;Cache />&#xa;&lt;/GDAL_WMS>&#xa;" name="OpenStreetMap">
       <customproperties/>
@@ -40,10 +42,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>258350.25268735337886028</xmin>
-      <ymin>6241397.90793217532336712</ymin>
-      <xmax>258509.43988145430921577</xmax>
-      <ymax>6241566.83666472695767879</ymax>
+      <xmin>258442.09567217493895441</xmin>
+      <ymin>6241313.74450782313942909</ymin>
+      <xmax>258760.47006037610117346</xmax>
+      <ymax>6241651.60197291150689125</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -61,8 +63,8 @@
     </destinationsrs>
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_nov_2027_avr_202820201230215523285"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="nOTES20210111164808562"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_nov_2027_avr_202820201230215523285"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_juill_2022_mai_202220201230211240428"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_juill_2023_Fév_202420201230212422516"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_jan_2023_juin_202320201230212044642"/>
@@ -73,7 +75,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Travaux_Zac_V_Hugo20201229215053259"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Conflits20210110222145135"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Travaux_Zac_V_Hugo20210102221652790"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="MAJ20210110231457832"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="MAJ20210110231457832"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_mars_2024_déc_202420201230214137159"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_janv_20_mai_202120201230203205672"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Travaux_démolition20210110123003030"/>
@@ -133,7 +135,7 @@
         <legendlayerfile isInOverview="0" layerid="Travaux_Zac_V_Hugo_espaces_publics20210108151150278" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Travaux Zac V.Hugo construction" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Travaux Zac V.Hugo construction" showFeatureCount="1">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="Travaux_Zac_V_Hugo20210102221652790" visible="1"/>
       </filegroup>
@@ -147,10 +149,10 @@
   <projectlayers>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="6000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
-        <xmin>2.32256487619807039</xmin>
+        <xmin>2.32138594548537025</xmin>
         <ymin>48.80199863673374949</ymin>
         <xmax>2.32256487619807039</xmax>
-        <ymax>48.80199863673374949</ymax>
+        <ymax>48.80292370680618319</ymax>
       </extent>
       <id>Conflits20210110222145135</id>
       <datasource>./Shapefile/Conflits.shp</datasource>
@@ -461,7 +463,13 @@ def my_form_open(dialog, layer, feature):
       </defaults>
       <previewExpression>COALESCE( "id", '&lt;NULL>' )</previewExpression>
     </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="10" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>2.31608816833856546</xmin>
+        <ymin>48.80166183758566234</ymin>
+        <xmax>2.31608816833856546</xmax>
+        <ymax>48.80166183758566234</ymax>
+      </extent>
       <id>MAJ20210110231457832</id>
       <datasource>./Shapefile/MAJ.shp</datasource>
       <keywordList>
@@ -470,14 +478,14 @@ def my_form_open(dialog, layer, feature):
       <layername>OPC ZAC V. Hugo  (version de travail, MAJ 12/01/2021)</layername>
       <srs>
         <spatialrefsys>
-          <proj4>+proj=lcc +lat_1=48.25 +lat_2=49.75 +lat_0=49 +lon_0=3 +x_0=1700000 +y_0=8200000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-          <srsid>1768</srsid>
-          <srid>3949</srid>
-          <authid>EPSG:3949</authid>
-          <description>RGF93 / CC49</description>
-          <projectionacronym>lcc</projectionacronym>
-          <ellipsoidacronym>GRS80</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <provider encoding="System">ogr</provider>
@@ -660,7 +668,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/yOffset" value="0"/>
         <property key="labeling/zIndex" value="0"/>
         <property key="qgis2web/Cluster" value="0"/>
-        <property key="qgis2web/Visible" value="true"/>
+        <property key="qgis2web/Visible" value="false"/>
         <property key="qgis2web/popup/Id" value="no label"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
@@ -835,7 +843,7 @@ def my_form_open(dialog, layer, feature):
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="8000" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
         <xmin>1649878.66925181960687041</xmin>
-        <ymin>8178185.90231235511600971</ymin>
+        <ymin>8178144.49625583551824093</ymin>
         <xmax>1650399.81293374788947403</xmax>
         <ymax>8178794.05257011577486992</ymax>
       </extent>
@@ -1251,9 +1259,6 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="Layer">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="Phase">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="Nom">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
@@ -1269,7 +1274,10 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="Hidden" name="End">
           <widgetv2config fieldEditable="1" constraint="" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="Text">
+        <edittype widgetv2type="Hidden" name="Text">
+          <widgetv2config fieldEditable="1" constraint="" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Promoteur">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
@@ -1652,13 +1660,13 @@ def my_form_open(dialog, layer, feature):
       <annotationform>.</annotationform>
       <aliases>
         <alias field="Layer" index="0" name=""/>
-        <alias field="Phase" index="1" name=""/>
-        <alias field="Nom" index="2" name=""/>
-        <alias field="Début trvx" index="3" name="Début des travaux"/>
-        <alias field="Fin trvx" index="4" name="Fin des travaux"/>
-        <alias field="Start" index="5" name=""/>
-        <alias field="End" index="6" name=""/>
-        <alias field="Text" index="7" name=""/>
+        <alias field="Nom" index="1" name=""/>
+        <alias field="Début trvx" index="2" name="Début des travaux"/>
+        <alias field="Fin trvx" index="3" name="Fin des travaux"/>
+        <alias field="Start" index="4" name=""/>
+        <alias field="End" index="5" name=""/>
+        <alias field="Text" index="6" name=""/>
+        <alias field="Promoteur" index="7" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -1705,13 +1713,13 @@ def my_form_open(dialog, layer, feature):
       </conditionalstyles>
       <defaults>
         <default field="Layer" expression=""/>
-        <default field="Phase" expression=""/>
         <default field="Nom" expression=""/>
         <default field="Début trvx" expression=""/>
         <default field="Fin trvx" expression=""/>
         <default field="Start" expression=""/>
         <default field="End" expression=""/>
         <default field="Text" expression=""/>
+        <default field="Promoteur" expression=""/>
       </defaults>
       <previewExpression>COALESCE( "Layer", '&lt;NULL>' )</previewExpression>
     </maplayer>

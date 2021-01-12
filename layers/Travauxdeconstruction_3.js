@@ -19,6 +19,7 @@ var json_Travauxdeconstruction_3 = {
 { "type": "Feature", "properties": { "Statut": "En cours", "Nature": "Travaux de construction du LOT L3", "Start": "à définir", "End": "à définir" }, "geometry": { "type": "Point", "coordinates": [ 2.321467624370256, 48.802350867037603 ] } },
 { "type": "Feature", "properties": { "Statut": "Travaux de gare en cours", "Nature": "Travaux de la gare SGP ligne 15", "Start": "à définir", "End": "à définir" }, "geometry": { "type": "Point", "coordinates": [ 2.318680854827239, 48.802737420793711 ] } },
 { "type": "Feature", "properties": { "Statut": "Travaux de gare en cours", "Nature": "Travaux de la gare RATP ligne 4", "Start": "à définir", "End": "à définir" }, "geometry": { "type": "Point", "coordinates": [ 2.317270860171043, 48.802744714232411 ] } },
-{ "type": "Feature", "properties": { "Statut": "En cours", "Nature": "Travaux de construction du LOT G2", "Start": "à définir", "End": "à définir" }, "geometry": { "type": "Point", "coordinates": [ 2.317758083455382, 48.802253620323349 ] } }
+{ "type": "Feature", "properties": { "Statut": "En cours", "Nature": "Travaux de construction du LOT G2", "Start": "à définir", "End": "à définir" }, "geometry": { "type": "Point", "coordinates": [ 2.317758083455382, 48.802253620323349 ] } },
+{ "type": "Feature", "properties": { "Statut": "En cours", "Nature": "Travaux de construction du bâtiment Usine Courbet", "Start": "En cours", "End": "T1 2021 (à confirmer)" }, "geometry": { "type": "Point", "coordinates": [ 2.322903458108844, 48.802920740056841 ] } }
 ]
 }

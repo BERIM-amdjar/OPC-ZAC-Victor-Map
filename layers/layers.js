@@ -112,21 +112,21 @@ jsonSource_OPCZACVHugoversiondetravailMAJ12012021_6.addFeatures(features_OPCZACV
 
 lyr_TravauxZacVHugoconstruction_0.setVisible(true);lyr_TravauxZacVHugoespacespublics_1.setVisible(true);lyr_TravauxEP_2.setVisible(true);lyr_Travauxdeconstruction_3.setVisible(true);lyr_Travauxdmolition_4.setVisible(true);lyr_Conflits_5.setVisible(true);lyr_OPCZACVHugoversiondetravailMAJ12012021_6.setVisible(false);
 var layersList = [baseLayer,lyr_TravauxZacVHugoconstruction_0,lyr_TravauxZacVHugoespacespublics_1,lyr_TravauxEP_2,lyr_Travauxdeconstruction_3,lyr_Travauxdmolition_4,lyr_Conflits_5,lyr_OPCZACVHugoversiondetravailMAJ12012021_6];
-lyr_TravauxZacVHugoconstruction_0.set('fieldAliases', {'Layer': 'Layer', 'Phase': 'Phase', 'Nom': 'Nom', 'Début trvx': 'Début des travaux', 'Fin trvx': 'Fin des travaux', 'Start': 'Start', 'End': 'End', 'Text': 'Text', });
+lyr_TravauxZacVHugoconstruction_0.set('fieldAliases', {'Layer': 'Layer', 'Nom': 'Nom', 'Début trvx': 'Début des travaux', 'Fin trvx': 'Fin des travaux', 'Start': 'Start', 'End': 'End', 'Text': 'Text', 'Promoteur': 'Promoteur', });
 lyr_TravauxZacVHugoespacespublics_1.set('fieldAliases', {'Layer': 'Layer', 'Phase': 'Phase', 'Nom': 'Nom', 'Début trvx': 'Début trvx', 'Fin trvx': 'Fin trvx', 'Start': 'Start', 'End': 'End', 'Text': 'Text', });
 lyr_TravauxEP_2.set('fieldAliases', {'Statut': 'Statut', 'Nature': 'Nature', 'Start': 'Start', 'End': 'End', 'Entreprise': 'Entreprise', });
 lyr_Travauxdeconstruction_3.set('fieldAliases', {'Statut': 'Statut', 'Nature': 'Nature', 'Start': 'Start', 'End': 'End', });
 lyr_Travauxdmolition_4.set('fieldAliases', {'Statut': 'Statut', 'Nature': 'Nature', 'Start': 'Start', 'End': 'End', });
 lyr_Conflits_5.set('fieldAliases', {'Descriptio': 'Descriptio', 'Action': 'Action', });
 lyr_OPCZACVHugoversiondetravailMAJ12012021_6.set('fieldAliases', {'Id': 'Id', });
-lyr_TravauxZacVHugoconstruction_0.set('fieldImages', {'Layer': 'TextEdit', 'Phase': 'TextEdit', 'Nom': 'TextEdit', 'Début trvx': 'TextEdit', 'Fin trvx': 'TextEdit', 'Start': 'Hidden', 'End': 'Hidden', 'Text': 'TextEdit', });
+lyr_TravauxZacVHugoconstruction_0.set('fieldImages', {'Layer': 'TextEdit', 'Nom': 'TextEdit', 'Début trvx': 'TextEdit', 'Fin trvx': 'TextEdit', 'Start': 'Hidden', 'End': 'Hidden', 'Text': 'Hidden', 'Promoteur': 'TextEdit', });
 lyr_TravauxZacVHugoespacespublics_1.set('fieldImages', {'Layer': 'TextEdit', 'Phase': 'TextEdit', 'Nom': 'TextEdit', 'Début trvx': 'TextEdit', 'Fin trvx': 'TextEdit', 'Start': 'Hidden', 'End': 'Hidden', 'Text': 'Hidden', });
 lyr_TravauxEP_2.set('fieldImages', {'Statut': 'ValueMap', 'Nature': 'TextEdit', 'Start': 'TextEdit', 'End': 'TextEdit', 'Entreprise': 'TextEdit', });
 lyr_Travauxdeconstruction_3.set('fieldImages', {'Statut': 'ValueMap', 'Nature': 'TextEdit', 'Start': 'TextEdit', 'End': 'TextEdit', });
 lyr_Travauxdmolition_4.set('fieldImages', {'Statut': 'ValueMap', 'Nature': 'TextEdit', 'Start': 'TextEdit', 'End': 'TextEdit', });
 lyr_Conflits_5.set('fieldImages', {'Descriptio': 'TextEdit', 'Action': 'TextEdit', });
 lyr_OPCZACVHugoversiondetravailMAJ12012021_6.set('fieldImages', {'Id': 'TextEdit', });
-lyr_TravauxZacVHugoconstruction_0.set('fieldLabels', {'Layer': 'no label', 'Phase': 'no label', 'Nom': 'inline label', 'Début trvx': 'header label', 'Fin trvx': 'header label', 'Text': 'no label', });
+lyr_TravauxZacVHugoconstruction_0.set('fieldLabels', {'Layer': 'no label', 'Nom': 'inline label', 'Début trvx': 'header label', 'Fin trvx': 'header label', 'Promoteur': 'header label', });
 lyr_TravauxZacVHugoespacespublics_1.set('fieldLabels', {'Layer': 'no label', 'Phase': 'no label', 'Nom': 'no label', 'Début trvx': 'header label', 'Fin trvx': 'header label', });
 lyr_TravauxEP_2.set('fieldLabels', {'Statut': 'no label', 'Nature': 'header label', 'Start': 'header label', 'End': 'header label', 'Entreprise': 'header label', });
 lyr_Travauxdeconstruction_3.set('fieldLabels', {'Statut': 'no label', 'Nature': 'header label', 'Start': 'header label', 'End': 'header label', });
