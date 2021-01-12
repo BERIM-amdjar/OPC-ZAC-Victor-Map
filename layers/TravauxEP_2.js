@@ -14,6 +14,7 @@ var json_TravauxEP_2 = {
 { "type": "Feature", "properties": { "Statut": "En cours", "Nature": "Travaux réseaux et aménagement", "Start": "En cours", "End": "Début avril 2021", "Entreprise": null }, "geometry": { "type": "Point", "coordinates": [ 2.324136279177663, 48.804662851809013 ] } },
 { "type": "Feature", "properties": { "Statut": "Démarrage imminent", "Nature": "Aménagement du débouché Assia Djebar- V. Hugo", "Start": null, "End": null, "Entreprise": "France travaux" }, "geometry": { "type": "Point", "coordinates": [ 2.324248350049371, 48.805412384396242 ] } },
 { "type": "Feature", "properties": { "Statut": "Démarrage imminent", "Nature": "Travaux d'aménagement des abords usine Cournbet", "Start": "Fin janvier 2021 (à confirmer)", "End": "Fin février 2021 (à confirmer)", "Entreprise": "COLAS" }, "geometry": { "type": "Point", "coordinates": [ 2.323197228367675, 48.802983654628235 ] } },
-{ "type": "Feature", "properties": { "Statut": "En cours", "Nature": "Aménagement des abords LOT L3", "Start": "En cours", "End": "Mars 2021", "Entreprise": null }, "geometry": { "type": "Point", "coordinates": [ 2.32152472039277, 48.802465497363286 ] } }
+{ "type": "Feature", "properties": { "Statut": "En cours", "Nature": "Aménagement des abords LOT L3", "Start": "En cours", "End": "Mars 2021", "Entreprise": null }, "geometry": { "type": "Point", "coordinates": [ 2.32152472039277, 48.802465497363286 ] } },
+{ "type": "Feature", "properties": { "Statut": "Démarrage imminent", "Nature": "Travaux d'aménagement des abords LOT C2", "Start": "Juin 2021 (à confirmer)", "End": "Novembre 2021 (à confirmer)", "Entreprise": "à désigner" }, "geometry": { "type": "Point", "coordinates": [ 2.323636081483592, 48.801464779863899 ] } }
 ]
 }
