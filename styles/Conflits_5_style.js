@@ -21,8 +21,8 @@ var style_Conflits_5 = function(feature, resolution){
     var style = [ new ol.style.Style({
         image: new ol.style.Icon({
                   imgSize: [560.317, 560.316],
-                  scale: 0.101728128898,
-                  anchor: [28, 28],
+                  scale: 0.0535411204729,
+                  anchor: [15, 15],
                   anchorXUnits: "pixels",
                   anchorYUnits: "pixels",
                   rotation: 0.0,
