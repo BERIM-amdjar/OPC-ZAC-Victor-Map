@@ -3,18 +3,12 @@ var baseLayer = new ol.layer.Group({
     'title': '',
     layers: [
 new ol.layer.Tile({
-<<<<<<< HEAD
     'title': 'OSM B&W',
     'type': 'base',
     source: new ol.source.XYZ({
         url: 'http://{a-c}.www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png',
         attributions: [new ol.Attribution({html: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'})]
     })
-=======
-    'title': 'OSM',
-    'type': 'base',
-    source: new ol.source.OSM()
->>>>>>> parent of 1d11a56 (V17)
 })
 ]
 });
@@ -93,29 +87,19 @@ var jsonSource_Equipements_5 = new ol.source.Vector({
 });
 jsonSource_Equipements_5.addFeatures(features_Equipements_5);var lyr_Equipements_5 = new ol.layer.Vector({
                 declutter: true,
-<<<<<<< HEAD
                 source:jsonSource_Equipements_5, 
                 style: style_Equipements_5,
                 title: '<img src="styles/legend/Equipements_5.png" /> Equipements'
             });var format_Info_6 = new ol.format.GeoJSON();
 var features_Info_6 = format_Info_6.readFeatures(json_Info_6, 
-=======
-                source:jsonSource_Conflits_5, maxResolution:1.68026796914,
-
-                style: style_Conflits_5,
-                title: '<img src="styles/legend/Conflits_5.png" /> Conflits'
-            });var format_OPCZACVHugoversiondetravailMAJ12012021_6 = new ol.format.GeoJSON();
-var features_OPCZACVHugoversiondetravailMAJ12012021_6 = format_OPCZACVHugoversiondetravailMAJ12012021_6.readFeatures(json_OPCZACVHugoversiondetravailMAJ12012021_6, 
->>>>>>> parent of 1d11a56 (V17)
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_OPCZACVHugoversiondetravailMAJ12012021_6 = new ol.source.Vector({
+var jsonSource_Info_6 = new ol.source.Vector({
     attributions: [new ol.Attribution({html: '<a href=""></a>'})],
 });
-jsonSource_OPCZACVHugoversiondetravailMAJ12012021_6.addFeatures(features_OPCZACVHugoversiondetravailMAJ12012021_6);var lyr_OPCZACVHugoversiondetravailMAJ12012021_6 = new ol.layer.Vector({
+jsonSource_Info_6.addFeatures(features_Info_6);var lyr_Info_6 = new ol.layer.Vector({
                 declutter: true,
-                source:jsonSource_OPCZACVHugoversiondetravailMAJ12012021_6, maxResolution:0.00280044661523,
+                source:jsonSource_Info_6, maxResolution:1.68026796914,
 
-<<<<<<< HEAD
                 style: style_Info_6,
                 title: '<img src="styles/legend/Info_6.png" /> Info'
             });var format_OPCZACVHugoversiondetravailMAJ24022021_7 = new ol.format.GeoJSON();
@@ -159,35 +143,5 @@ lyr_Equipements_5.set('fieldLabels', {'Nature': 'no label', });
 lyr_Info_6.set('fieldLabels', {'Info': 'header label', });
 lyr_OPCZACVHugoversiondetravailMAJ24022021_7.set('fieldLabels', {'Id': 'no label', });
 lyr_OPCZACVHugoversiondetravailMAJ24022021_7.on('precompose', function(evt) {
-=======
-                style: style_OPCZACVHugoversiondetravailMAJ12012021_6,
-                title: '<img src="styles/legend/OPCZACVHugoversiondetravailMAJ12012021_6.png" /> OPC ZAC V. Hugo  (version de travail, MAJ 12/01/2021)'
-            });
-
-lyr_TravauxZacVHugoconstruction_0.setVisible(true);lyr_TravauxZacVHugoespacespublics_1.setVisible(true);lyr_TravauxEP_2.setVisible(true);lyr_Travauxdeconstruction_3.setVisible(true);lyr_Travauxdmolition_4.setVisible(true);lyr_Conflits_5.setVisible(true);lyr_OPCZACVHugoversiondetravailMAJ12012021_6.setVisible(false);
-var layersList = [baseLayer,lyr_TravauxZacVHugoconstruction_0,lyr_TravauxZacVHugoespacespublics_1,lyr_TravauxEP_2,lyr_Travauxdeconstruction_3,lyr_Travauxdmolition_4,lyr_Conflits_5,lyr_OPCZACVHugoversiondetravailMAJ12012021_6];
-lyr_TravauxZacVHugoconstruction_0.set('fieldAliases', {'Layer': 'Layer', 'Nom': 'Nom', 'Début trvx': 'Début des travaux', 'Fin trvx': 'Fin des travaux', 'Start': 'Start', 'End': 'End', 'Text': 'Text', 'Promoteur': 'Promoteur', });
-lyr_TravauxZacVHugoespacespublics_1.set('fieldAliases', {'Layer': 'Layer', 'Phase': 'Phase', 'Nom': 'Nom', 'Début trvx': 'Début trvx', 'Fin trvx': 'Fin trvx', 'Start': 'Start', 'End': 'End', 'Text': 'Text', });
-lyr_TravauxEP_2.set('fieldAliases', {'Statut': 'Statut', 'Nature': 'Nature', 'Start': 'Start', 'End': 'End', 'Entreprise': 'Entreprise', });
-lyr_Travauxdeconstruction_3.set('fieldAliases', {'Statut': 'Statut', 'Nature': 'Nature', 'Start': 'Start', 'End': 'End', });
-lyr_Travauxdmolition_4.set('fieldAliases', {'Statut': 'Statut', 'Nature': 'Nature', 'Start': 'Start', 'End': 'End', });
-lyr_Conflits_5.set('fieldAliases', {'Descriptio': 'Descriptio', 'Action': 'Action', });
-lyr_OPCZACVHugoversiondetravailMAJ12012021_6.set('fieldAliases', {'Id': 'Id', });
-lyr_TravauxZacVHugoconstruction_0.set('fieldImages', {'Layer': 'TextEdit', 'Nom': 'TextEdit', 'Début trvx': 'TextEdit', 'Fin trvx': 'TextEdit', 'Start': 'Hidden', 'End': 'Hidden', 'Text': 'Hidden', 'Promoteur': 'TextEdit', });
-lyr_TravauxZacVHugoespacespublics_1.set('fieldImages', {'Layer': 'TextEdit', 'Phase': 'TextEdit', 'Nom': 'TextEdit', 'Début trvx': 'TextEdit', 'Fin trvx': 'TextEdit', 'Start': 'Hidden', 'End': 'Hidden', 'Text': 'Hidden', });
-lyr_TravauxEP_2.set('fieldImages', {'Statut': 'ValueMap', 'Nature': 'TextEdit', 'Start': 'TextEdit', 'End': 'TextEdit', 'Entreprise': 'TextEdit', });
-lyr_Travauxdeconstruction_3.set('fieldImages', {'Statut': 'ValueMap', 'Nature': 'TextEdit', 'Start': 'TextEdit', 'End': 'TextEdit', });
-lyr_Travauxdmolition_4.set('fieldImages', {'Statut': 'ValueMap', 'Nature': 'TextEdit', 'Start': 'TextEdit', 'End': 'TextEdit', });
-lyr_Conflits_5.set('fieldImages', {'Descriptio': 'TextEdit', 'Action': 'TextEdit', });
-lyr_OPCZACVHugoversiondetravailMAJ12012021_6.set('fieldImages', {'Id': 'TextEdit', });
-lyr_TravauxZacVHugoconstruction_0.set('fieldLabels', {'Layer': 'no label', 'Nom': 'inline label', 'Début trvx': 'header label', 'Fin trvx': 'header label', 'Promoteur': 'header label', });
-lyr_TravauxZacVHugoespacespublics_1.set('fieldLabels', {'Layer': 'no label', 'Phase': 'no label', 'Nom': 'no label', 'Début trvx': 'header label', 'Fin trvx': 'header label', });
-lyr_TravauxEP_2.set('fieldLabels', {'Statut': 'no label', 'Nature': 'header label', 'Start': 'header label', 'End': 'header label', 'Entreprise': 'header label', });
-lyr_Travauxdeconstruction_3.set('fieldLabels', {'Statut': 'no label', 'Nature': 'header label', 'Start': 'header label', 'End': 'header label', });
-lyr_Travauxdmolition_4.set('fieldLabels', {'Statut': 'no label', 'Nature': 'header label', 'Start': 'header label', 'End': 'header label', });
-lyr_Conflits_5.set('fieldLabels', {'Descriptio': 'header label', 'Action': 'header label', });
-lyr_OPCZACVHugoversiondetravailMAJ12012021_6.set('fieldLabels', {'Id': 'no label', });
-lyr_OPCZACVHugoversiondetravailMAJ12012021_6.on('precompose', function(evt) {
->>>>>>> parent of 1d11a56 (V17)
     evt.context.globalCompositeOperation = 'normal';
 });

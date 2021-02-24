@@ -5,14 +5,10 @@
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-<<<<<<< HEAD
     <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="MAJ20210110231457832" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/01-Github/OPC-ZAC-Victor-Map/QGIS_files/Shapefile/MAJ.shp" name="OPC ZAC V. Hugo  (version de travail, MAJ 24/02/2021)">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Info20210124162419695" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/01-Github/OPC-ZAC-Victor-Map/QGIS_files/Shapefile/Info.shp" name="Info">
-=======
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="MAJ20210110231457832" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/01-Github/OPC-ZAC-Victor-Map/QGIS_files/Shapefile/MAJ.shp" name="OPC ZAC V. Hugo  (version de travail, MAJ 12/01/2021)">
->>>>>>> parent of 1d11a56 (V17)
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Equipements20210224101113739" source="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/01-Github/OPC-ZAC-Victor-Map/QGIS_files/Shapefile/Equipements.shp" name="Equipements">
@@ -50,17 +46,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-<<<<<<< HEAD
       <xmin>257118.26139598246663809</xmin>
       <ymin>6240427.07203142251819372</ymin>
       <xmax>259679.65741193201392889</xmax>
       <ymax>6243129.93175212945789099</ymax>
-=======
-      <xmin>258442.09567217493895441</xmin>
-      <ymin>6241313.74450782313942909</ymin>
-      <xmax>258760.47006037610117346</xmax>
-      <ymax>6241651.60197291150689125</ymax>
->>>>>>> parent of 1d11a56 (V17)
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -82,10 +71,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_nov_2027_avr_202820201230215523285"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_juill_2022_mai_202220201230211240428"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_juill_2023_Fév_202420201230212422516"/>
-<<<<<<< HEAD
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Info20210124162419695"/>
-=======
->>>>>>> parent of 1d11a56 (V17)
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Phase_jan_2023_juin_202320201230212044642"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="File_220201231212915873"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3949" srcDatumTransform="-1" destDatumTransform="-1" layerid="Equipements20210224101113739"/>
@@ -122,7 +108,6 @@
       <item>Travaux_de_construction20210110123000494</item>
       <item>Conflits20210110222145135</item>
       <item>MAJ20210110231457832</item>
-<<<<<<< HEAD
       <item>Info20210124162419695</item>
       <item>Equipements20210224101113739</item>
       <item>Travaux_démolition20210224105620122</item>
@@ -130,26 +115,16 @@
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="OPC ZAC V. Hugo  (version de travail, MAJ 24/02/2021)" showFeatureCount="0">
-=======
-    </custom-order>
-  </layer-tree-canvas>
-  <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="OPC ZAC V. Hugo  (version de travail, MAJ 12/01/2021)" showFeatureCount="0">
->>>>>>> parent of 1d11a56 (V17)
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="MAJ20210110231457832" visible="1"/>
       </filegroup>
     </legendlayer>
-<<<<<<< HEAD
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Info" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="Info20210124162419695" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Equipements" showFeatureCount="0">
-=======
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Conflits" showFeatureCount="0">
->>>>>>> parent of 1d11a56 (V17)
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="Equipements20210224101113739" visible="1"/>
       </filegroup>
@@ -507,7 +482,6 @@ def my_form_open(dialog, layer, feature):
       </defaults>
       <previewExpression>COALESCE( "id", '&lt;NULL>' )</previewExpression>
     </maplayer>
-<<<<<<< HEAD
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
         <xmin>1649770.73457215796224773</xmin>
@@ -862,7 +836,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="angle" v="0"/>
               <prop k="color" v="175,36,108,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./Logos/Info_icon.svg"/>
+              <prop k="name" v="C:/Users/AMDJAR/Desktop/Local affaires/OPC-Bagneux/01-Github/OPC-ZAC-Victor-Map/QGIS_files/Logos/Info_icon.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -1126,8 +1100,6 @@ def my_form_open(dialog, layer, feature):
       </defaults>
       <previewExpression>COALESCE( "Descriptio", '&lt;NULL>' )</previewExpression>
     </maplayer>
-=======
->>>>>>> parent of 1d11a56 (V17)
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="10" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
         <xmin>2.31608816833856546</xmin>
@@ -1140,11 +1112,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-<<<<<<< HEAD
       <layername>OPC ZAC V. Hugo  (version de travail, MAJ 24/02/2021)</layername>
-=======
-      <layername>OPC ZAC V. Hugo  (version de travail, MAJ 12/01/2021)</layername>
->>>>>>> parent of 1d11a56 (V17)
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -1849,7 +1817,7 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;Nature&quot;" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;End&quot;" sortOrder="0">
         <columns>
           <column width="-1" hidden="1" type="actions"/>
           <column width="296" hidden="0" type="field" name="Statut"/>
@@ -1931,11 +1899,11 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="Nom">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="Début trvx">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        <edittype widgetv2type="Hidden" name="Début trvx">
+          <widgetv2config fieldEditable="1" constraint="" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="Fin trvx">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        <edittype widgetv2type="Hidden" name="Fin trvx">
+          <widgetv2config fieldEditable="1" constraint="" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
         <edittype widgetv2type="Hidden" name="Start">
           <widgetv2config fieldEditable="1" constraint="" labelOnTop="0" constraintDescription="" notNull="0"/>
@@ -2176,11 +2144,8 @@ def my_form_open(dialog, layer, feature):
         <property key="qgis2web/popup/Nature" value="header label"/>
         <property key="qgis2web/popup/Nom" value="header label"/>
         <property key="qgis2web/popup/Phase" value="no label"/>
-<<<<<<< HEAD
         <property key="qgis2web/popup/Programme" value="header label"/>
         <property key="qgis2web/popup/Promoteur" value="header label"/>
-=======
->>>>>>> parent of 1d11a56 (V17)
         <property key="qgis2web/popup/Start" value="no label"/>
         <property key="qgis2web/popup/Text" value="no label"/>
         <property key="variableNames"/>
@@ -2257,7 +2222,6 @@ def my_form_open(dialog, layer, feature):
       <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;Layer&quot;" sortOrder="0">
         <columns>
-<<<<<<< HEAD
           <column width="315" hidden="0" type="field" name="Layer"/>
           <column width="199" hidden="0" type="field" name="Nom"/>
           <column width="49" hidden="0" type="field" name="Début trvx"/>
@@ -2268,17 +2232,6 @@ def my_form_open(dialog, layer, feature):
           <column width="168" hidden="0" type="field" name="Nature"/>
           <column width="267" hidden="0" type="field" name="Horizon"/>
           <column width="352" hidden="0" type="field" name="Programme"/>
-=======
-          <column width="430" hidden="0" type="field" name="Layer"/>
-          <column width="-1" hidden="0" type="field" name="Phase"/>
-          <column width="270" hidden="0" type="field" name="Nom"/>
-          <column width="166" hidden="0" type="field" name="Début trvx"/>
-          <column width="223" hidden="0" type="field" name="Fin trvx"/>
-          <column width="-1" hidden="0" type="field" name="Start"/>
-          <column width="-1" hidden="0" type="field" name="End"/>
-          <column width="-1" hidden="1" type="actions"/>
-          <column width="436" hidden="0" type="field" name="Text"/>
->>>>>>> parent of 1d11a56 (V17)
         </columns>
       </attributetableconfig>
       <editform>.</editform>
@@ -2717,10 +2670,10 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="Nature">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="Start">
+        <edittype widgetv2type="TextEdit" name="Début">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="End">
+        <edittype widgetv2type="TextEdit" name="Fin">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
@@ -3048,23 +3001,19 @@ def my_form_open(dialog, layer, feature):
       <aliases>
         <alias field="Statut" index="0" name=""/>
         <alias field="Nature" index="1" name=""/>
-        <alias field="Start" index="2" name=""/>
-        <alias field="End" index="3" name=""/>
+        <alias field="Début" index="2" name=""/>
+        <alias field="Fin" index="3" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;Fin&quot;" sortOrder="1">
         <columns>
-          <column width="468" hidden="0" type="field" name="Statut"/>
+          <column width="265" hidden="0" type="field" name="Statut"/>
           <column width="-1" hidden="1" type="actions"/>
-<<<<<<< HEAD
           <column width="399" hidden="0" type="field" name="Nature"/>
           <column width="-1" hidden="0" type="field" name="Début"/>
           <column width="-1" hidden="0" type="field" name="Fin"/>
-=======
-          <column width="603" hidden="0" type="field" name="Nature"/>
->>>>>>> parent of 1d11a56 (V17)
         </columns>
       </attributetableconfig>
       <editform>.</editform>
@@ -3097,8 +3046,8 @@ def my_form_open(dialog, layer, feature):
       <defaults>
         <default field="Statut" expression=""/>
         <default field="Nature" expression=""/>
-        <default field="Start" expression=""/>
-        <default field="End" expression=""/>
+        <default field="Début" expression=""/>
+        <default field="Fin" expression=""/>
       </defaults>
       <previewExpression>COALESCE( "id", '&lt;NULL>' )</previewExpression>
     </maplayer>
@@ -3551,14 +3500,14 @@ def my_form_open(dialog, layer, feature):
     <qgis2web>
       <Maxzoomlevel type="QString">28</Maxzoomlevel>
       <Showpopupsonhover type="bool">false</Showpopupsonhover>
-      <Basemaps type="QString">OSM</Basemaps>
+      <Basemaps type="QString">OSM B&amp;W</Basemaps>
       <Exportfolder type="QString">C:\Users\AMDJAR\Desktop\Local affaires\OPC-Bagneux\01-Github\OPC-ZAC-Victor-Map</Exportfolder>
       <mapFormat type="QString">openlayers</mapFormat>
       <Precision type="QString">maintain</Precision>
       <Measuretool type="QString">Metric</Measuretool>
       <Usedebuglibraries type="bool">false</Usedebuglibraries>
       <Baselayer type="QStringList">
-        <value>OSM</value>
+        <value>OSM B&amp;W</value>
       </Baselayer>
       <Addlayerslist type="QString">Collapsed</Addlayerslist>
       <MatchprojectCRS type="bool">false</MatchprojectCRS>
