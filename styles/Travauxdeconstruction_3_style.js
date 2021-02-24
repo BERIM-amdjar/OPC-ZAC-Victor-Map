@@ -6,8 +6,8 @@ function categories_Travauxdeconstruction_3(feature, value, size, resolution, la
                     return [ new ol.style.Style({
         image: new ol.style.Icon({
                   imgSize: [800, 800],
-                  scale: 0.08,
-                  anchor: [32, 32],
+                  scale: 0.0475,
+                  anchor: [19, 19],
                   anchorXUnits: "pixels",
                   anchorYUnits: "pixels",
                   rotation: 0.0,
@@ -21,8 +21,8 @@ case 'Démarrage imminent':
                     return [ new ol.style.Style({
         image: new ol.style.Icon({
                   imgSize: [980.000000, 776.000000],
-                  scale: 0.065306122449,
-                  anchor: [32, 32],
+                  scale: 0.0387755102041,
+                  anchor: [19, 19],
                   anchorXUnits: "pixels",
                   anchorYUnits: "pixels",
                   rotation: 0.0,
@@ -36,8 +36,8 @@ case 'En cours':
                     return [ new ol.style.Style({
         image: new ol.style.Icon({
                   imgSize: [980.000000, 776.000000],
-                  scale: 0.065306122449,
-                  anchor: [32, 32],
+                  scale: 0.0387755102041,
+                  anchor: [19, 19],
                   anchorXUnits: "pixels",
                   anchorYUnits: "pixels",
                   rotation: 0.0,
@@ -51,8 +51,8 @@ case 'Travaux de gare en cours':
                     return [ new ol.style.Style({
         image: new ol.style.Icon({
                   imgSize: [560.000000, 720.000000],
-                  scale: 0.0678571428571,
-                  anchor: [19, 19],
+                  scale: 0.0392857142857,
+                  anchor: [11, 11],
                   anchorXUnits: "pixels",
                   anchorYUnits: "pixels",
                   rotation: 0.0,

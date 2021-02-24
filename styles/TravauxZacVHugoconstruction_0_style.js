@@ -2,30 +2,23 @@ var size = 0;
 var placement = 'point';
 function categories_TravauxZacVHugoconstruction_0(feature, value, size, resolution, labelText,
                        labelFont, labelFill) {
-                switch(value.toString()) {case 'A définir':
+                switch(value.toString()) {case 'Bureaux':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.4)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(247,35,16,0.4)'}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement)
-    })];
-                    break;
-case 'Bureaux':
-                    return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.4)', lineDash: [1,5], lineCap: 'butt', lineJoin: 'miter', width: 1}), fill: new ol.style.Fill({color: 'rgba(216,17,206,0.4)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.54)', lineDash: [1,5], lineCap: 'butt', lineJoin: 'miter', width: 1}), fill: new ol.style.Fill({color: 'rgba(216,17,206,0.54)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement)
     })];
                     break;
 case 'Logements':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.4)', lineDash: [1,5], lineCap: 'butt', lineJoin: 'miter', width: 1}), fill: new ol.style.Fill({color: 'rgba(19,219,237,0.4)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.54)', lineDash: [1,5], lineCap: 'butt', lineJoin: 'miter', width: 1}), fill: new ol.style.Fill({color: 'rgba(19,219,237,0.54)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement)
     })];
                     break;
 case 'Mixte':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.4)', lineDash: [1,5], lineCap: 'butt', lineJoin: 'miter', width: 1}), fill: new ol.style.Fill({color: 'rgba(205,157,74,0.4)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.54)', lineDash: [1,5], lineCap: 'butt', lineJoin: 'miter', width: 1}), fill: new ol.style.Fill({color: 'rgba(205,157,74,0.54)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement)
     })];
