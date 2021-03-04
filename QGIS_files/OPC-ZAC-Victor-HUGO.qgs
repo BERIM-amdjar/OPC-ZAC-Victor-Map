@@ -43,10 +43,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>258403.18644269157084636</xmin>
-      <ymin>6241357.9857119508087635</ymin>
-      <xmax>258723.36094468526425771</xmax>
-      <ymax>6241695.84317703917622566</ymax>
+      <xmin>258669.62583458691369742</xmin>
+      <ymin>6241456.11838803347200155</ymin>
+      <xmax>258829.7130855837604031</xmax>
+      <ymax>6241625.04712057765573263</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -2652,7 +2652,7 @@ def my_form_open(dialog, layer, feature):
           <column width="-1" hidden="1" type="actions"/>
           <column width="399" hidden="0" type="field" name="Nature"/>
           <column width="-1" hidden="0" type="field" name="Début"/>
-          <column width="-1" hidden="0" type="field" name="Fin"/>
+          <column width="260" hidden="0" type="field" name="Fin"/>
         </columns>
       </attributetableconfig>
       <editform>.</editform>
@@ -3150,8 +3150,8 @@ def my_form_open(dialog, layer, feature):
         <value>OSM</value>
       </Baselayer>
       <Addlayerslist type="QString">Collapsed</Addlayerslist>
-      <MatchprojectCRS type="bool">false</MatchprojectCRS>
       <Highlightonhover type="bool">false</Highlightonhover>
+      <MatchprojectCRS type="bool">false</MatchprojectCRS>
       <Addaddresssearch type="bool">true</Addaddresssearch>
       <Minzoomlevel type="QString">1</Minzoomlevel>
       <Geolocateuser type="bool">true</Geolocateuser>

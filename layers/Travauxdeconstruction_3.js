@@ -19,7 +19,7 @@ var json_Travauxdeconstruction_3 = {
 { "type": "Feature", "properties": { "Statut": "En cours", "Nature": "Travaux de construction du LOT L3", "Début": "En cours", "Fin": "mi-mars 2021" }, "geometry": { "type": "Point", "coordinates": [ 2.321467624370256, 48.802350867037603 ] } },
 { "type": "Feature", "properties": { "Statut": "Travaux de gare en cours", "Nature": "Travaux de la gare SGP ligne 15", "Début": "à définir", "Fin": "à définir" }, "geometry": { "type": "Point", "coordinates": [ 2.318680854827239, 48.802737420793711 ] } },
 { "type": "Feature", "properties": { "Statut": "Travaux de gare en cours", "Nature": "Travaux de la gare RATP ligne 4", "Début": "à définir", "Fin": "à définir" }, "geometry": { "type": "Point", "coordinates": [ 2.317270860171043, 48.802744714232411 ] } },
-{ "type": "Feature", "properties": { "Statut": "En cours", "Nature": "Travaux de construction du LOT G2", "Début": "à définir", "Fin": "à définir" }, "geometry": { "type": "Point", "coordinates": [ 2.317758083455382, 48.802253620323349 ] } },
+{ "type": "Feature", "properties": { "Statut": "En cours", "Nature": "Travaux de construction du LOT G2", "Début": "En cours", "Fin": "mi 2023" }, "geometry": { "type": "Point", "coordinates": [ 2.317758083455382, 48.802253620323349 ] } },
 { "type": "Feature", "properties": { "Statut": "En cours", "Nature": "Travaux de construction du bâtiment Usine Courbet", "Début": "En cours", "Fin": "07 mai  2021" }, "geometry": { "type": "Point", "coordinates": [ 2.322903458108844, 48.802920740056841 ] } },
 { "type": "Feature", "properties": { "Statut": "Démarrage imminent", "Nature": "LOT L4.2", "Début": "T3 2021", "Fin": "2023" }, "geometry": { "type": "Point", "coordinates": [ 2.321394505211286, 48.802731653853272 ] } }
 ]
