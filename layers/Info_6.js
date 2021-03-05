@@ -11,7 +11,7 @@ var json_Info_6 = {
 { "type": "Feature", "properties": { "Info": "Raccordement AEP - bâtiment + Casino en mai 2021" }, "geometry": { "type": "Point", "coordinates": [ 2.323652749424621, 48.801568692971941 ] } },
 { "type": "Feature", "properties": { "Info": "VEOLIA : réalisation de la BI 19 avril 2021" }, "geometry": { "type": "Point", "coordinates": [ 2.323319228843379, 48.80294936263298 ] } },
 { "type": "Feature", "properties": { "Info": "01\/03\/2021 : demande de carnet de phasage auprès d'ENEDIS" }, "geometry": { "type": "Point", "coordinates": [ 2.324313301004737, 48.804618618053183 ] } },
-{ "type": "Feature", "properties": { "Info": "Travaux finis, il reste la pose du mobilier" }, "geometry": { "type": "Point", "coordinates": [ 2.324263449532133, 48.805412461821561 ] } },
+{ "type": "Feature", "properties": { "Info": "Pose de mobilier le 8 mars 2021, intervention Citéos le 15 mars 2021" }, "geometry": { "type": "Point", "coordinates": [ 2.324263449532133, 48.805412461821561 ] } },
 { "type": "Feature", "properties": { "Info": "Panneau pour bouche incendie à poser" }, "geometry": { "type": "Point", "coordinates": [ 2.32143543463705, 48.802469083153341 ] } },
 { "type": "Feature", "properties": { "Info": "Correction du pied de BAV à réaliser (par COLAS ou dans le cadre des travaux du Parvis) ?" }, "geometry": { "type": "Point", "coordinates": [ 2.320230549892387, 48.802370021460248 ] } },
 { "type": "Feature", "properties": { "Info": "Devenir de la clôture au droit des BAVs posés par COLAS (sujet avec L5)" }, "geometry": { "type": "Point", "coordinates": [ 2.322651303604492, 48.80302115372438 ] } },

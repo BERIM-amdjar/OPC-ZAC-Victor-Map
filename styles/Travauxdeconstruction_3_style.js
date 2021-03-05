@@ -2,22 +2,7 @@ var size = 0;
 var placement = 'point';
 function categories_Travauxdeconstruction_3(feature, value, size, resolution, labelText,
                        labelFont, labelFill) {
-                switch(value.toString()) {case 'Bâtiment livré':
-                    return [ new ol.style.Style({
-        image: new ol.style.Icon({
-                  imgSize: [800, 800],
-                  scale: 0.0475,
-                  anchor: [19, 19],
-                  anchorXUnits: "pixels",
-                  anchorYUnits: "pixels",
-                  rotation: 0.0,
-                  src: "styles/building in service.svg"
-            }),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement)
-    })];
-                    break;
-case 'Démarrage imminent':
+                switch(value.toString()) {case 'Démarrage imminent':
                     return [ new ol.style.Style({
         image: new ol.style.Icon({
                   imgSize: [980.000000, 776.000000],
