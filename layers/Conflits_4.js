@@ -8,6 +8,7 @@ var json_Conflits_4 = {
 { "type": "Feature", "properties": { "Descriptio": "Demande des devis à faire pour la réalisation des travaux", "Action": "SADEV\/BERIM" }, "geometry": { "type": "Point", "coordinates": [ 2.321312146620763, 48.803060886041834 ] } },
 { "type": "Feature", "properties": { "Descriptio": "Retard sur le démarrage du chantier IDVERDE", "Action": "SADEV" }, "geometry": { "type": "Point", "coordinates": [ 2.324461786703639, 48.806918904497977 ] } },
 { "type": "Feature", "properties": { "Descriptio": "Blocage réseau télécom : câbles existant dans la chambre non retirée", "Action": "Concessionnaire" }, "geometry": { "type": "Point", "coordinates": [ 2.324221624991556, 48.804633365353055 ] } },
-{ "type": "Feature", "properties": { "Descriptio": "Déménagement des habitants du 12 rue Romain Rolland le 25 et 26 mars. Un arrêté de voirie pour le stationnement du camion est prévu", "Action": "MODERNE" }, "geometry": { "type": "Point", "coordinates": [ 2.322475501876021, 48.80246394834441 ] } }
+{ "type": "Feature", "properties": { "Descriptio": "Déménagement des habitants du 12 rue Romain Rolland le 25 et 26 mars. Un arrêté de voirie pour le stationnement du camion est prévu", "Action": "MODERNE" }, "geometry": { "type": "Point", "coordinates": [ 2.322475501876021, 48.80246394834441 ] } },
+{ "type": "Feature", "properties": { "Descriptio": "Voie en impasse après fin des travaux abords L3. voir comment la traiter", "Action": "Ville" }, "geometry": { "type": "Point", "coordinates": [ 2.321333749821764, 48.802511063993002 ] } }
 ]
 }
